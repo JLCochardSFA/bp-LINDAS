@@ -1,1 +1,21 @@
+# Only required to copy part of LINDAS metadata to Fuseki triplestore or to LINDAS-TEST
 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cube-meta: <https://cube.link/meta/>
+PREFIX schema: <http://schema.org/>
+PREFIX sfa: <https://lindas.admin.ch/sfa/>
+PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
+
+CONSTRUCT {
+    GRAPH sfa:dataMngt {
+        ?voc dms:numberOfUses ?nbCubes
+    }
+}
+WHERE {
+    SELECT ?voc (COUNT (?cube) as ?nbCubes) WHERE 
+    {
+        ?voc    a schema:DefinedTermSet;
+  	            cube-meta:isUsedIn ?cube.
+    } GROUP BY ?voc
+}
