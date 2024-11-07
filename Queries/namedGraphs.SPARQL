@@ -12,25 +12,27 @@ PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX ld-schema: <https://schema.ld.admin.ch/>
 
 CONSTRUCT {
-  dms:NamedGraph a rdfs:Class;
-                 rdfs:comment "Class of entities those URI are used to identify Named Graphs in the triplestore.";
-                 rdfs:label "Class of Named Graphs". 
-  dms:hasOwnerAbbr a rdf:Property;
-   	           rdfs:domain dms:NamedGraph;
-                   rdfs:range xsd:string;
-                   rdfs:comment "has as owner this organisation's abbreviation".
-  dms:hasOwnerOrganization a rdf:Property;
-    			   rdfs:domain dms:NamedGraph;
-    			   rdfs:range schema:Governmentorganization;
-    			   rdfs:comment "has a defined governmental organization as owner of this graph".
+#    GRAPH ld:dataMngt {
+        dms:NamedGraph a rdfs:Class;
+                      rdfs:comment "Class of entities those URI are used to identify Named Graphs in the triplestore.";
+                      rdfs:label "Class of Named Graphs". 
+  		dms:hasOwnerAbbr a rdf:Property;
+   	                  rdfs:domain dms:NamedGraph;
+                      rdfs:range xsd:string;
+                      rdfs:comment "has as owner this organisation's abbreviation".
+  		dms:hasOwnerOrganization a rdf:Property;
+    						   rdfs:domain dms:NamedGraph;
+    						   rdfs:range schema:Governmentorganization;
+    						   rdfs:comment "has a defined governmental organization as owner of this graph".
  
-  ?g a dms:NamedGraph ;
-     rdfs:label ?label;
-     schema:name ?name.
+        ?g a dms:NamedGraph ;
+           rdfs:label ?label;
+#    	   dms:hasOwnerAbbr ?nameEN, ?nameDE;
+    	   schema:name ?name.
   # allows to assign multiple organisation entries
-  ?g dms:hasOwnerOrganization ?organisation.
+    	?g dms:hasOwnerOrganization ?organisation.
   # copying part of organisation information (for Fuseki only)
-  ?organisation a schema:GovernmentOrganization;
+  		?organisation a schema:GovernmentOrganization;
     				 rdfs:label ?labelDE, ?labelEN.
 
 } 
@@ -85,4 +87,3 @@ WHERE {
   	BIND ( IF ( BOUND(?org1) || BOUND(?org2) || BOUND(?org3) || BOUND(?org4), ?abbrDE, STRLANG("Unbekannt", "de")) AS ?labelDE).
   	BIND ( IF ( BOUND(?org1) || BOUND(?org2) || BOUND(?org3) || BOUND(?org4), ?abbrEN, STRLANG("Unknown", "en")) AS ?labelEN).
 }
-
