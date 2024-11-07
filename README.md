@@ -9,4 +9,18 @@
 
 ## Caractéristiques à représenter
 
-*
+* Les named graphs avec leurs liens aux organisations et aux datasets
+* Les différents types de datasets (cubes, vocabulaires, datasets standards)
+* Les personnes responsable de la gestion des datasets
+* les pipelines associés à la mise à jour des datasets
+* les applications qui consomment le contenu des datasets
+* les tailles des cubes et des autres datasets
+* les vocabulaires utilisés dans les cubes
+* les liens de dépendance entre datasets
+
+## Autres idées
+
+A vérifier leur faisabilité
+
+* A partir des logs des queries, identifier les données qui sont "consommées" et mettre en évidence ces caractéristiques
+* Constituer une liste des projets en cours ou des idées de projets et des besoins en données et applications
