@@ -1,3 +1,6 @@
+# This query makes a strong assumption on the named graphs used to identify Govenment Organizations
+# Namely the named graphs are named in the queries to reduce the amount of multiple matches.
+
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 # Extrait la liste des Named Graphs
@@ -30,7 +33,7 @@ CONSTRUCT {
     	  schema:name ?name.
     # allows to assign multiple organisation entries
     ?g dms:hasOwnerOrganization ?organisation.
-    # copying part of organisation information (for Fuseki only)
+    # copying part of organisation information (for Fuseki and LINDAS TEST)
   	?organisation a schema:GovernmentOrganization;
     				      rdfs:label ?labelDE, ?labelEN.
   }
