@@ -9,8 +9,8 @@
 
 ## Caractéristiques à représenter
 
-* Les named graphs avec leurs liens aux organisations et aux datasets
-* Les différents types de datasets (cubes, vocabulaires, datasets standards)
+* Les named graphs avec leurs liens aux organisations et aux datasets --Done
+* Les différents types de datasets (cubes, vocabulaires, datasets standards) -- Done
 * Les personnes responsable de la gestion des datasets
 * les pipelines associés à la mise à jour des datasets
 * les applications qui consomment le contenu des datasets
