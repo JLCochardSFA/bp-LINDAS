@@ -1,0 +1,69 @@
+# Extrait la liste des datasets sur la base de la classe dcat/Dataset
+# Met en lien le dataset avec le Named Graph qui le contient
+
+PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX sfa: <https://lindas.admin.ch/sfa/>
+PREFIX blueprintConfig: <https://described.at/zazuko/blueprintConfig/>
+PREFIX flux: <https://flux.described.at/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <http://schema.org/>
+PREFIX cube: <https://cube.link/>
+PREFIX cube-meta: <https://cube.link/meta/>
+
+CONSTRUCT {
+    GRAPH sfa:dataMngt {
+        dms:containsDataset     a rdf:Property;
+                                rdfs:domain dms:NamedGraph;
+                                rdfs:range dcat:Dataset.
+  		
+    ?g dms:containsDataset ?datasetOrDatasetRoot.
+    # Only needed for fuseki test
+    # ?vocabulary cube-meta:isUsedIn ?cube.
+    ?dataset    a ?datasetClass;
+    # Must be added inside lindas:dataMngt in all cases
+                rdfs:label ?datasetLabel.
+    ?datasetRoot    a dms:DatasetRoot;
+    				rdfs:label ?name;
+	   				dms:hasVersion ?dataset.
+    }
+}
+# SELECT DISTINCT ?g ?dataset0 ?cube
+WHERE {
+#  BIND (<https://lindas.admin.ch/territorial> AS ?g)
+	GRAPH ?g {
+    	OPTIONAL{
+      		?dataset0 a schema:DefinedTermSet;
+        	schema:name ?name0}
+    	OPTIONAL{ 
+      		?dataset1 a dcat:Dataset, cube:Cube;
+         	schema:name ?name1}
+    	OPTIONAL{
+      		?dataset2 a dcat:Dataset;
+        	schema:name ?name2.}
+        BIND (
+    	    IF (BOUND(?dataset0), ?dataset0,
+            IF (BOUND(?dataset1), ?dataset1,
+            IF (BOUND(?dataset2), ?dataset2, <https://lindas.admin.ch/unnamedDataset>))) AS ?dataset)
+        BIND (
+      	    IF (BOUND(?dataset0), ?name0,
+            IF (BOUND(?dataset1), ?name1,
+            IF (BOUND(?dataset2), ?name2, STRLANG("Missing metadata", "en")))) AS ?name)
+        BIND (
+      	    IF (BOUND(?dataset0), dms:Vocabulary,
+      	    IF (BOUND(?dataset1), dms:Cube,
+      	    IF (BOUND(?dataset2), dms:Dataset, dms:UndefinedDataset))) AS ?datasetClass) 
+        OPTIONAL{
+  			?dataset schema:version ?v.
+      		BIND (REPLACE(STR(?dataset), "/$" , "") AS ?str2)
+      		BIND (REPLACE(?str2, "/[0-9-.]", "") AS ?str3)
+      		BIND (IRI(?str3) AS ?datasetRoot)
+  			BIND (STR(?v) AS ?vName)}
+		FILTER langMatches( lang(?name), "EN")}
+    # BIND (IF (BOUND(?dataset0),?dataset0,<http://example.org/null>) AS ?vocabulary)
+    # OPTIONAL{?vocabulary cube-meta:isUsedIn ?cube}
+  	BIND(COALESCE(?vName, ?name) AS ?datasetLabel)
+  	BIND(COALESCE(?datasetRoot,?dataset) AS ?datasetOrDatasetRoot)
+}
