@@ -6,3 +6,7 @@
 * Etant donné que certaines données natives de LINDAS-PROD qui devraient servir à la visualisation ne se trouvent pas forcément sur TEST, elles sont copiées (comme je le faisais avec Fuseki)
 * Blueprint qui consomme des données de LINDAS-TEST est accessible ici https://blueprint.lindas.zazukoians.org/login
 * 
+
+## Caractéristiques à représenter
+
+*
