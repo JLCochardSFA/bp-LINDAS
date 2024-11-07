@@ -1,1 +1,18 @@
+# Only required to copy part of LINDAS metadata to Fuseki triplestore or to LINDAS-TEST
 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cube-meta: <https://cube.link/meta/>
+PREFIX schema: <http://schema.org/>
+PREFIX sfa: <https://lindas.admin.ch/sfa/>
+
+CONSTRUCT {
+    GRAPH sfa:dataMngt {
+        ?voc cube-meta:isUsedIn ?cube
+    }
+}
+# SELECT ?voc ?cube 
+WHERE {
+  ?voc a  schema:DefinedTermSet;
+  	   cube-meta:isUsedIn ?cube .
+}
