@@ -15,7 +15,7 @@
 * les pipelines associés à la mise à jour des datasets
 * les applications qui consomment le contenu des datasets
 * les tailles des cubes et des autres datasets
-* les vocabulaires utilisés dans les cubes
+* les vocabulaires utilisés dans les cubes -- Done
 * les liens de dépendance entre datasets
 
 ## Autres idées
