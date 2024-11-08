@@ -1,1 +1,133 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://schema.example.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <http://schema.org/>
+PREFIX fluxShape: <https://ld.flux.zazuko.com/shapes/metadata/>
+PREFIX flux: <https://ld.flux.zazuko.com/>
+PREFIX fluxSchema: <https://flux.described.at/>
+PREFIX k8s: <https://k8s.described.at/>
+PREFIX oci: <https://oci.described.at/>
+PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX cube-meta: <https://cube.link/meta/>
+PREFIX ld-schema: <https://schema.ld.admin.ch/>
 
+# blueprint classes LINDAS
+
+flux:NamedGraph a fluxShape:ClassMetadataShape;
+	rdfs:label "Named Graph";
+	rdfs:comment "Named graphs identified in the LINDAS database";
+	fluxSchema:faIcon "fa-solid fa-warehouse";
+	fluxSchema:colorIndex 1;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:NamedGraph.
+	
+flux:Dataset a fluxShape:ClassMetadataShape;
+	rdfs:label "Dataset";
+	rdfs:comment "General datasets contained in the LINDAS database";
+	fluxSchema:faIcon "fa-solid fa-table";
+	fluxSchema:colorIndex 2;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:Dataset.
+	
+flux:Vocabulary a fluxShape:ClassMetadataShape;
+	rdfs:label "Vocabulary";
+	rdfs:comment "Vocabulary datasets contained in the LINDAS database";
+	fluxSchema:faIcon "fa-solid fa-table-list";
+	fluxSchema:colorIndex 2;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:Vocabulary.
+	
+flux:Cube a fluxShape:ClassMetadataShape;
+	rdfs:label "Cube";
+	rdfs:comment "Cube datasets contained in the LINDAS database";
+	fluxSchema:faIcon "fa-solid fa-cube";
+	fluxSchema:colorIndex 2;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:Cube.	
+
+flux:UndefinedDataset a fluxShape:ClassMetadataShape;
+	rdfs:label "No Dataset";
+	rdfs:comment "Datasets that are not documented";
+	fluxSchema:faIcon "fa-solid fa-square";
+	fluxSchema:colorIndex 9;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:UndefinedDataset.
+	
+flux:DatasetRoot a fluxShape:ClassMetadataShape;
+	rdfs:label "Cubes Root";
+	rdfs:comment "A virtual dataset bringing together versions of datasets.";
+	fluxSchema:faIcon "fa-solid fa-folder";
+	fluxSchema:colorIndex 2;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:DatasetRoot.
+	
+flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
+	rdfs:label "Gov Unit";
+	rdfs:comment "Government Organization part of LINDAS Ecosystem";
+	fluxSchema:faIcon "fa-solid fa-building-columns";
+	fluxSchema:colorIndex 3;
+	fluxSchema:searchPrio 3;
+	sh:targetNode schema:GovernmentOrganization.
+	
+flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
+	rdfs:label "Gov Unit";
+	rdfs:comment "Government Organization part of LINDAS Ecosystem";
+	fluxSchema:faIcon "fa-solid fa-building-columns";
+	fluxSchema:colorIndex 3;
+	fluxSchema:searchPrio 3;
+	sh:targetNode ld-schema:ZefixOrganisation.
+	
+# fin blueprint classes LINDAS
+
+# blueprint links LINDAS
+
+flux:NamedgraphToDatasetsLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "contains";
+	sh:path dms:containsDataset;
+	sh:targetClass dms:NamedGraph;
+	sh:class dms:DatasetRoot.
+	
+flux:NamedgraphToDatasetLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "contains";
+	sh:path dms:containsDataset;
+	sh:targetClass dms:NamedGraph;
+	sh:class dms:Dataset.
+	
+flux:NamedgraphToVocabularyLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "contains";
+	sh:path dms:containsDataset;
+	sh:targetClass dms:NamedGraph;
+	sh:class dms:Vocabulary.
+	
+flux:NamedgraphToCubeLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "contains";
+	sh:path dms:containsDataset;
+	sh:targetClass dms:NamedGraph;
+	sh:class dms:Cube.
+	
+flux:NamedgraphToUndefDatasetLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "contains";
+	sh:path dms:containsDataset;
+	sh:targetClass dms:NamedGraph;
+	sh:class dms:UndefinedDataset.
+	
+flux:NamedGraphToOrganizationLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "has owner";
+	sh:path dms:hasOwnerOrganization;
+	sh:targetClass dms:NamedGraph;
+	sh:class schema:GovernmentOrganization.
+	
+flux:VocabularyToCubeLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "used in";
+	sh:path cube-meta:isUsedIn;
+	sh:targetClass dms:Vocabulary;
+	sh:class dms:Cube.
+	
+flux:DatasetRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "has version";
+	sh:path dms:hasVersion;
+	sh:targetClass dms:DatasetRoot;
+	sh:class dms:Cube.
+
+# fin blueprint links LINDAS
