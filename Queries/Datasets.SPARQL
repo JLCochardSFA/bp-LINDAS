@@ -25,9 +25,9 @@ CONSTRUCT {
     ?dataset    a ?datasetClass;
     # Must be added inside lindas:dataMngt in all cases
                 rdfs:label ?datasetLabel.
-    ?datasetRoot    a dms:DatasetRoot;
-    				rdfs:label ?name;
-	   				dms:hasVersion ?dataset.
+    ?datasetRoot    	a dms:CubesRoot;
+    			rdfs:label ?name;
+	   		dms:hasVersion ?dataset.
     }
 }
 # SELECT DISTINCT ?g ?dataset0 ?cube
