@@ -100,11 +100,11 @@ flux:NamedgraphToVocabularyLink a sh:PropertyShape, fluxSchema:Link;
 	sh:targetClass dms:NamedGraph;
 	sh:class dms:Vocabulary.
 	
-flux:NamedgraphToCubeLink a sh:PropertyShape, fluxSchema:Link;
-	sh:name "contains";
-	sh:path dms:containsDataset;
-	sh:targetClass dms:NamedGraph;
-	sh:class dms:Cube.
+#flux:NamedgraphToCubeLink a sh:PropertyShape, fluxSchema:Link;
+#	sh:name "contains";
+#	sh:path dms:containsDataset;
+#	sh:targetClass dms:NamedGraph;
+#	sh:class dms:Cube.
 	
 flux:NamedgraphToUndefDatasetLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "contains";
