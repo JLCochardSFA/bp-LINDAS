@@ -68,13 +68,13 @@ flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 	fluxSchema:faIcon "fa-solid fa-building-columns";
 	fluxSchema:colorIndex 3;
 	fluxSchema:searchPrio 3;
-	sh:targetNode schema:BPGovernmentOrganization.
+	sh:targetNode dms:BPGovernmentOrganization.
 	
 flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 	rdfs:label "Gov Unit";
 	rdfs:comment "Government Organization part of LINDAS Ecosystem";
 	fluxSchema:faIcon "fa-solid fa-building-columns";
-	fluxSchema:colorIndex 3;
+	fluxSchema:colorIndex 7;
 	fluxSchema:searchPrio 3;
 	sh:targetNode ld-schema:ZefixOrganisation.
 	
@@ -116,7 +116,7 @@ flux:NamedGraphToOrganizationLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "has owner";
 	sh:path dms:hasOwnerOrganization;
 	sh:targetClass dms:NamedGraph;
-	sh:class schema:BPGovernmentOrganization.
+	sh:class dms:BPGovernmentOrganization.
 	
 flux:VocabularyToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "used in";
