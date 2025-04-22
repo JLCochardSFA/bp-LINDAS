@@ -158,7 +158,7 @@ flux:CubeVersionHierarchyShape a sh:NodeShape , fluxSchema:ConnectionPoint ;
 # All nodes of this tree are part of the same group
 # This is used to reference the whole tree and add metadata to it
 flux:DatasetRootTree a sh:Group , fluxSchema:Hierarchy , fluxSchema:Composition ; # As you can see this is a Group, a Hierarchy and a Composition - Composition means it is composed of these things defined in the tree
-   rdfs:label "Dataset Conent" ;                # The name of this tree
+   rdfs:label "Dataset Content" ;                # The name of this tree
    rdfs:comment "Information about the Dataset content" ; # a description of the tree
    fluxSchema:hasRoot flux:DatasetRootHierarchyShape ;  # define the tree root shape
    .
