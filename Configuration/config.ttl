@@ -68,7 +68,7 @@ flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 	fluxSchema:faIcon "fa-solid fa-building-columns";
 	fluxSchema:colorIndex 3;
 	fluxSchema:searchPrio 3;
-	sh:targetNode schema:GovernmentOrganization.
+	sh:targetNode schema:BPGovernmentOrganization.
 	
 flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 	rdfs:label "Gov Unit";
