@@ -25,7 +25,7 @@ CONSTRUCT {
                       rdfs:comment "has as owner this organisation's abbreviation".
     dms:hasOwnerOrganization  a rdf:Property;
       						            rdfs:domain dms:NamedGraph;
-    	  					            rdfs:range schema:BPGovernmentorganization;
+    	  					            rdfs:range schema:BPGovernmentOrganization;
     		  				            rdfs:comment "has a defined governmental organization as owner of this graph".
  
     ?g  a dms:NamedGraph ;
