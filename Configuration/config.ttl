@@ -132,7 +132,7 @@ flux:DatasetRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
 
 # fin blueprint links LINDAS
 
-Benjamin Aggregate
+# Benjamin Aggregate
 # https://github.com/zazuko/blueprint/blob/main/doc/06_aggregate/00_introduction.md
 # https://github.com/zazuko/blueprint/blob/main/doc/06_aggregate/01_configuration.md
 
