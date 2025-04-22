@@ -116,7 +116,7 @@ flux:NamedGraphToOrganizationLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "has owner";
 	sh:path dms:hasOwnerOrganization;
 	sh:targetClass dms:NamedGraph;
-	sh:class schema:GovernmentOrganization.
+	sh:class schema:BPGovernmentOrganization.
 	
 flux:VocabularyToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "used in";
@@ -234,7 +234,7 @@ flux:VacabularyToDatasetRootTreeLink a fluxSchema:CompositionToNodeLink ;
 # DatasetRoot  Gov Unit
 flux:DatasetRoottoGovernmentOrganizationTreeLink a fluxSchema:CompositionToNodeLink ;
    sh:targetClass flux:DatasetRootTree ;           # the target class is the targetClass of the SHACL Shape - but the source of our link
-   fluxSchema:target schema:GovernmentOrganization ;               # this is the target of our link - the dms:Vocabulary
+   fluxSchema:target schema:BPGovernmentOrganization ;               # this is the target of our link - the dms:Vocabulary
    rdfs:label "Publsied by" ;             # a label we can show in the UI
    fluxSchema:inverseLabel "Publisher" ;       # if we see the link in the opposite direction we show this label
     # there is one inks between a DatasetRootTree and an Vocabulary
@@ -243,6 +243,6 @@ flux:DatasetRoottoGovernmentOrganizationTreeLink a fluxSchema:CompositionToNodeL
        sh:path ( [
            sh:inversePath dms:containsDataset
        ] dms:hasOwnerOrganization ) ;    # the path to follow to reach the target node (the Vacabulary)
-       sh:class schema:GovernmentOrganization ;                        # the target class of the instance on the other side of the link
+       sh:class schema:BPGovernmentOrganization ;                        # the target class of the instance on the other side of the link
    ] .
 
