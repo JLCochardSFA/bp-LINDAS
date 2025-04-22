@@ -25,7 +25,7 @@ CONSTRUCT {
                       rdfs:comment "has as owner this organisation's abbreviation".
     dms:hasOwnerOrganization  a rdf:Property;
       						            rdfs:domain dms:NamedGraph;
-    	  					            rdfs:range schema:BPGovernmentOrganization;
+    	  					            rdfs:range dms:BPGovernmentOrganization;
     		  				            rdfs:comment "has a defined governmental organization as owner of this graph".
  
     ?g  a dms:NamedGraph ;
@@ -34,7 +34,7 @@ CONSTRUCT {
     # allows to assign multiple organisation entries
     ?g dms:hasOwnerOrganization ?organisation.
     # copying part of organisation information (for Fuseki and LINDAS TEST) and gives an new class name
-  	?organisation a schema:BPGovernmentOrganization;
+  	?organisation a dms:BPGovernmentOrganization;
     				      rdfs:label ?labelDE, ?labelEN.
   }
 } 
