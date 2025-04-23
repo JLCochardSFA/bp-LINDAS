@@ -54,7 +54,7 @@ flux:UndefinedDataset a fluxShape:ClassMetadataShape;
 	fluxSchema:searchPrio 3;
 	sh:targetNode dms:UndefinedDataset.
 	
-flux:DatasetRoot a fluxShape:ClassMetadataShape;
+flux:CubesRoot a fluxShape:ClassMetadataShape;
 	rdfs:label "Cubes Root";
 	rdfs:comment "A virtual dataset bringing together versions of datasets.";
 	fluxSchema:faIcon "fa-solid fa-folder";
@@ -86,7 +86,7 @@ flux:NamedgraphToDatasetsLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "contains";
 	sh:path dms:containsDataset;
 	sh:targetClass dms:NamedGraph;
-	sh:class dms:DatasetRoot.
+	sh:class dms:CubesRoot.
 	
 flux:NamedgraphToDatasetLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "contains";
@@ -124,10 +124,10 @@ flux:VocabularyToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:targetClass dms:Vocabulary;
 	sh:class dms:Cube.
 	
-flux:DatasetRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
+flux:CubesRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "has version";
 	sh:path dms:hasVersion;
-	sh:targetClass dms:DatasetRoot;
+	sh:targetClass dms:CubesRoot;
 	sh:class dms:Cube.
 
 # fin blueprint links LINDAS
@@ -136,12 +136,12 @@ flux:DatasetRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
 # https://github.com/zazuko/blueprint/blob/main/doc/06_aggregate/00_introduction.md
 # https://github.com/zazuko/blueprint/blob/main/doc/06_aggregate/01_configuration.md
 
-## DatasetRoot hierarchy
+## CubesRoot hierarchy
 # Root - Namespace
-flux:DatasetRootHierarchyShape a sh:NodeShape , fluxSchema:ConnectionPoint ;
+flux:CubesRootHierarchyShape a sh:NodeShape , fluxSchema:ConnectionPoint ;
    rdfs:label "Dataset Root" ;     # Just a label shown in the UI
-   sh:targetClass dms:DatasetRoot ;         # The target class of the Shape - DatasetRoot in our case
-   sh:group flux:DatasetRootTree ;          # The group of the Shape - the Tree
+   sh:targetClass dms:CubesRoot ;         # The target class of the Shape - CubesRoot in our case
+   sh:group flux:CubesRootTree ;          # The group of the Shape - the Tree
    sh:property [
        sh:name "Version" ;                           # A label show in the UI
        sh:path dms:hasVersion ;                      # the path to follow - no lists here, just a single path or single inverse path
@@ -152,35 +152,35 @@ flux:DatasetRootHierarchyShape a sh:NodeShape , fluxSchema:ConnectionPoint ;
 flux:CubeVersionHierarchyShape a sh:NodeShape , fluxSchema:ConnectionPoint ;
    rdfs:label "Cube Version" ;
    sh:targetClass dms:Cube ;
-   sh:group flux:DatasetRootTree ;          # The group of the Shape - the Tree
+   sh:group flux:CubesRootTree ;          # The group of the Shape - the Tree
    .
 
 # All nodes of this tree are part of the same group
 # This is used to reference the whole tree and add metadata to it
-flux:DatasetRootTree a sh:Group , fluxSchema:Hierarchy , fluxSchema:Composition ; # As you can see this is a Group, a Hierarchy and a Composition - Composition means it is composed of these things defined in the tree
+flux:CubesRootTree a sh:Group , fluxSchema:Hierarchy , fluxSchema:Composition ; # As you can see this is a Group, a Hierarchy and a Composition - Composition means it is composed of these things defined in the tree
    rdfs:label "Dataset Content" ;                # The name of this tree
    rdfs:comment "Information about the Dataset content" ; # a description of the tree
-   fluxSchema:hasRoot flux:DatasetRootHierarchyShape ;  # define the tree root shape
+   fluxSchema:hasRoot flux:CubesRootHierarchyShape ;  # define the tree root shape
    .
 
 #
-## fin ---  NamedGraph CubeRoot hierarchy
-## DatasetRoot hierarchy
+## fin ---  NamedGraph CubesRoot hierarchy
+## CubesRoot hierarchy
 # Root - NamedGraph
 flux:NamedgraphDatasetsHierarchyShape a sh:NodeShape ;
    rdfs:label "Named Graph" ;               # Just a label shown in the UI
-   sh:targetClass dms:NamedGraph ;         # The target class of the Shape - DatasetRoot in our case
+   sh:targetClass dms:NamedGraph ;         # The target class of the Shape - CubesRoot in our case
    sh:group flux:NamedgraphDatasetsTree ;          # The group of the Shape - the Tree
    sh:property [
        sh:name "Cube Root" ;                           # A label show in the UI
        sh:path dms:containsDataset ;                      # the path to follow - no lists here, just a single path or single inverse path
-       sh:node flux:NamedgraphDatasetRootHierarchyShape ;      # the next (level) shape in the hierarchy - Ingress
+       sh:node flux:NamedgraphCubesRootHierarchyShape ;      # the next (level) shape in the hierarchy - Ingress
    ] .
 
 # level 1 - Cube (the version)
-flux:NamedgraphDatasetRootHierarchyShape a sh:NodeShape , fluxSchema:ConnectionPoint ;
+flux:NamedgraphCubesRootHierarchyShape a sh:NodeShape , fluxSchema:ConnectionPoint ;
    rdfs:label "Cube Root" ;
-   sh:targetClass dms:DatasetRoot ;
+   sh:targetClass dms:CubesRoot ;
    sh:group flux:NamedgraphDatasetsTree ;          # The group of the Shape - the Tree
    .
 
@@ -214,12 +214,12 @@ fluxSchema:Container a rdfs:Class ;
 
 #
 #  Now we want to see the Datasete Root and the Vocabs used without the cube version node
-flux:VacabularyToDatasetRootTreeLink a fluxSchema:CompositionToNodeLink ;
-   sh:targetClass flux:DatasetRootTree ;           # the target class is the targetClass of the SHACL Shape - but the source of our link
+flux:VacabularyToCubesRootTreeLink a fluxSchema:CompositionToNodeLink ;
+   sh:targetClass flux:CubesRootTree ;           # the target class is the targetClass of the SHACL Shape - but the source of our link
    fluxSchema:target dms:Vocabulary ;               # this is the target of our link - the dms:Vocabulary
    rdfs:label "Used Vacabulary" ;             # a label we can show in the UI
    fluxSchema:inverseLabel "Vacabulary is Used in" ;       # if we see the link in the opposite direction we show this label
-    # there is one inks between a DatasetRootTree and an Vocabulary
+    # there is one inks between a CubesRootTree and an Vocabulary
    sh:property [
        sh:targetClass dms:Cube ;                         # the source of the link (connection point Cube)
        sh:path [
@@ -231,15 +231,15 @@ flux:VacabularyToDatasetRootTreeLink a fluxSchema:CompositionToNodeLink ;
 
 
 #
-# DatasetRoot  Gov Unit
-flux:DatasetRoottoGovernmentOrganizationTreeLink a fluxSchema:CompositionToNodeLink ;
-   sh:targetClass flux:DatasetRootTree ;           # the target class is the targetClass of the SHACL Shape - but the source of our link
+# CubesRoot  Gov Unit
+flux:CubesRoottoGovernmentOrganizationTreeLink a fluxSchema:CompositionToNodeLink ;
+   sh:targetClass flux:CubesRootTree ;           # the target class is the targetClass of the SHACL Shape - but the source of our link
    fluxSchema:target schema:BPGovernmentOrganization ;               # this is the target of our link - the dms:Vocabulary
    rdfs:label "Publsied by" ;             # a label we can show in the UI
    fluxSchema:inverseLabel "Publisher" ;       # if we see the link in the opposite direction we show this label
-    # there is one inks between a DatasetRootTree and an Vocabulary
+    # there is one inks between a CubesRootTree and an Vocabulary
    sh:property [
-       sh:targetClass dms:DatasetRoot ;                         # the source of the link (connection point Cube)
+       sh:targetClass dms:CubesRoot ;                         # the source of the link (connection point Cube)
        sh:path ( [
            sh:inversePath dms:containsDataset
        ] dms:hasOwnerOrganization ) ;    # the path to follow to reach the target node (the Vacabulary)
