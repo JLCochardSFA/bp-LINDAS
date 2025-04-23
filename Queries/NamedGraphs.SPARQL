@@ -20,22 +20,22 @@ CONSTRUCT {
                     rdfs:comment "Class of entities those URI are used to identify Named Graphs in the triplestore.";
                     rdfs:label "Class of Named Graphs". 
     dms:hasOwnerAbbr  a rdf:Property;
-   	                  rdfs:domain dms:NamedGraph;
+   	              rdfs:domain dms:NamedGraph;
                       rdfs:range xsd:string;
                       rdfs:comment "has as owner this organisation's abbreviation".
-    dms:hasOwnerOrganization  a rdf:Property;
-      						            rdfs:domain dms:NamedGraph;
-    	  					            rdfs:range dms:BPGovernmentOrganization;
-    		  				            rdfs:comment "has a defined governmental organization as owner of this graph".
+    dms:hasOwnerOrganization  	a rdf:Property;
+      				rdfs:domain dms:NamedGraph;
+    	  			rdfs:range dms:BPGovernmentOrganization;
+    		  		rdfs:comment "has a defined governmental organization as owner of this graph".
  
     ?g  a dms:NamedGraph ;
         rdfs:label ?label;
-    	  schema:name ?name.
+    	schema:name ?name.
     # allows to assign multiple organisation entries
     ?g dms:hasOwnerOrganization ?organisation.
     # copying part of organisation information (for Fuseki and LINDAS TEST) and gives an new class name
-  	?organisation a dms:BPGovernmentOrganization;
-    				      rdfs:label ?labelDE, ?labelEN.
+    ?organisation a dms:BPGovernmentOrganization;
+    		  rdfs:label ?labelDE, ?labelEN.
   }
 } 
 WHERE {
@@ -67,13 +67,15 @@ WHERE {
   # Lookup for the organisation itself in the different graphs.
   # There is room for standardisation and consolidation
   # Case 1: the German abbreviation is found in Staatskalender
+  # Excludes a sub-organisation of the BLW (very specific case)
   OPTIONAL {
     GRAPH <https://lindas.admin.ch/fch/staatskalender> {
       ?org1 a schema:GovernmentOrganization;
             schema:alternateName ?abbrDE.
     }
+    FILTER (?org != <https://register.ld.admin.ch/staatskalender/organization/10003196>)
   }
-  # Case 2: There was no abbreviation found in Termdat (ex. Agroscope) amd we must search with case-incensitive
+  # Case 2: There was no abbreviation found in Termdat (ex. Agroscope) and we must search with case-incensitive
   OPTIONAL {
     GRAPH <https://lindas.admin.ch/fch/staatskalender> {
       ?org2 a schema:GovernmentOrganization;
