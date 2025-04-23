@@ -60,7 +60,7 @@ flux:DatasetRoot a fluxShape:ClassMetadataShape;
 	fluxSchema:faIcon "fa-solid fa-folder";
 	fluxSchema:colorIndex 2;
 	fluxSchema:searchPrio 3;
-	sh:targetNode dms:DatasetRoot.
+	sh:targetNode dms:CubesRoot.
 	
 flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 	rdfs:label "Gov Unit";
