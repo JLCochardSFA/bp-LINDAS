@@ -1,18 +1,28 @@
-# Only required to copy part of LINDAS metadata to Fuseki triplestore or to LINDAS-TEST
+# Needed to generate the relation between a shared dimension and a cube using it
 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX cube-meta: <https://cube.link/meta/>
-PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX sfa: <https://lindas.admin.ch/sfa/>
+PREFIX blueprintConfig: <https://described.at/zazuko/blueprintConfig/>
+PREFIX flux: <https://flux.described.at/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <http://schema.org/>
+PREFIX cube: <https://cube.link/>
+PREFIX cube-meta: <https://cube.link/meta/>
 
 CONSTRUCT {
     GRAPH sfa:dataMngt {
-        ?voc cube-meta:isUsedIn ?cube
+        dms:isUsedIn    a rdf:Property;
+                        rdfs:domain dms:Vocabulary;
+                        rdfs:range dcat:Cube.
+        ?sharedDimension dms:isUsedIn ?cube
     }
 }
-# SELECT ?voc ?cube 
+# SELECT ?sharedDimension ?name ?cube 
 WHERE {
-  ?voc a  schema:DefinedTermSet;
-  	   cube-meta:isUsedIn ?cube .
+    ?sharedDimension 
+        a cube-meta:SharedDimension;
+        cube-meta:isUsedIn ?cube.
 }
