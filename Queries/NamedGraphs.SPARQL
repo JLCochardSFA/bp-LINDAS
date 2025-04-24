@@ -74,6 +74,7 @@ WHERE {
             schema:alternateName ?abbrDE.
     }
     FILTER (?org1 != <https://register.ld.admin.ch/staatskalender/organization/10003196>)
+    FILTER (?org1 != <https://register.ld.admin.ch/staatskalender/organization/10010833>)
   }
   # Case 2: There was no abbreviation found in Termdat (ex. Agroscope) and we must search with case-incensitive
   OPTIONAL {
