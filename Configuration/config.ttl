@@ -38,6 +38,15 @@ flux:Vocabulary a fluxShape:ClassMetadataShape;
 	fluxSchema:searchPrio 3;
 	sh:targetNode dms:Vocabulary.
 	
+# Maybe not needed
+flux:SharedDimension a fluxShape:ClassMetadataShape;
+	rdfs:label "Shared Vocabulary";
+	rdfs:comment "Vocabulary datasets contained in the LINDAS database that is defined as a shared dimension in cube structure";
+	fluxSchema:faIcon "fa-solid fa-table-list";
+	fluxSchema:colorIndex 4;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:SharedDimension.
+	
 flux:Cube a fluxShape:ClassMetadataShape;
 	rdfs:label "Cube";
 	rdfs:comment "Cube datasets contained in the LINDAS database";
