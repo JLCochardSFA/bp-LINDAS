@@ -75,7 +75,8 @@ WHERE {
     }
     FILTER (?org1 != <https://register.ld.admin.ch/staatskalender/organization/10003196>)
     FILTER (?org1 != <https://register.ld.admin.ch/staatskalender/organization/10010833>)
-  }
+    FILTER (?org1 != <https://register.ld.admin.ch/staatskalender/organization/60034332-11-05>)
+   }
   # Case 2: There was no abbreviation found in Termdat (ex. Agroscope) and we must search with case-incensitive
   OPTIONAL {
     GRAPH <https://lindas.admin.ch/fch/staatskalender> {
