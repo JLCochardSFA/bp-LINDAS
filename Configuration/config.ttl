@@ -96,6 +96,12 @@ flux:NamedgraphToDatasetsLink a sh:PropertyShape, fluxSchema:Link;
 	sh:path dms:containsDataset;
 	sh:targetClass dms:NamedGraph;
 	sh:class dms:CubesRoot.
+
+flux:NamedgraphToCubeLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "contains";
+	sh:path dms:containsDataset;
+	sh:targetClass dms:NamedGraph;
+	sh:class dms:Cube.
 	
 flux:NamedgraphToDatasetLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "contains";
