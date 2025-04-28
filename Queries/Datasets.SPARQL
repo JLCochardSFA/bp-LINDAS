@@ -14,11 +14,11 @@ PREFIX cube: <https://cube.link/>
 PREFIX cube-meta: <https://cube.link/meta/>
 
 CONSTRUCT {
-    GRAPH sfa:dataMngt {
-        dms:containsDataset     a rdf:Property;
-                                rdfs:domain dms:NamedGraph;
-                                rdfs:range dcat:Dataset.
-  		
+  GRAPH sfa:dataMngt {
+       dms:containsDataset  a rdf:Property;
+                            rdfs:domain dms:NamedGraph;
+                            rdfs:range dcat:Dataset.
+ 		
     ?g dms:containsDataset ?datasetOrDatasetRoot.
     # Only needed for fuseki test
     # ?vocabulary cube-meta:isUsedIn ?cube.
@@ -27,20 +27,22 @@ CONSTRUCT {
                 rdfs:label ?datasetLabel.
     ?datasetRoot    	a dms:CubesRoot;
     			rdfs:label ?name;
-	   		dms:hasVersion ?dataset.
+ 	   		dms:hasVersion ?dataset.
     }
 }
-# SELECT DISTINCT ?g ?dataset0 ?cube
+# SELECT DISTINCT *
 WHERE {
-#  BIND (<https://lindas.admin.ch/territorial> AS ?g)
+#  BIND (<https://lindas.admin.ch/foph/covid19> AS ?g)
 	GRAPH ?g {
-    	OPTIONAL{
+    	OPTIONAL {
       		?dataset0 a schema:DefinedTermSet;
         	schema:name ?name0}
-    	OPTIONAL{ 
-      		?dataset1 a dcat:Dataset, cube:Cube;
+    	OPTIONAL { 
+            # If I add a constraint on ?dataset1 being a dcat:Dataset
+            # some results are missing
+      		?dataset1 a cube:Cube;
          	schema:name ?name1}
-    	OPTIONAL{
+    	OPTIONAL {
       		?dataset2 a dcat:Dataset;
         	schema:name ?name2.}
         BIND (
