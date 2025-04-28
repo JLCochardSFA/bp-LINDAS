@@ -173,10 +173,6 @@
 <https://register.ld.admin.ch/staatskalender/organization/10008684> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#BPGovernmentOrganization> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/staatskalender/organization/10008684> <http://www.w3.org/2000/01/rdf-schema#label> "BAG"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/staatskalender/organization/10008684> <http://www.w3.org/2000/01/rdf-schema#label> "FOPH"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://lindas.admin.ch/foph/covid19> <https://schema.ld.admin.ch/datamngt#hasOwnerOrganization> <https://register.ld.admin.ch/staatskalender/organization/60031751-11-05> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/staatskalender/organization/60031751-11-05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#BPGovernmentOrganization> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/staatskalender/organization/60031751-11-05> <http://www.w3.org/2000/01/rdf-schema#label> "BAG"@de <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/staatskalender/organization/60031751-11-05> <http://www.w3.org/2000/01/rdf-schema#label> "FOPH"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/orgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#NamedGraph> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/orgs> <http://www.w3.org/2000/01/rdf-schema#label> "FCH-orgs" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/orgs> <http://schema.org/name> "orgs" <https://lindas.admin.ch/sfa/dataMngt> .
