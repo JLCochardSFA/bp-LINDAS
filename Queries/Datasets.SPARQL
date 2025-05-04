@@ -1,0 +1,72 @@
+# Extrait la liste des datasets sur la base de la classe dcat/Dataset
+# Met en lien le dataset avec le Named Graph qui le contient
+
+PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX sfa: <https://lindas.admin.ch/sfa/>
+PREFIX blueprintConfig: <https://described.at/zazuko/blueprintConfig/>
+PREFIX flux: <https://flux.described.at/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <http://schema.org/>
+PREFIX cube: <https://cube.link/>
+PREFIX cube-meta: <https://cube.link/meta/>
+
+#CONSTRUCT {
+#  GRAPH sfa:dataMngt {
+#       dms:containsDataset  a rdf:Property;
+#                            rdfs:domain dms:NamedGraph;
+#                            rdfs:range dcat:Dataset.
+# 		
+#    ?g dms:containsDataset ?dataset.
+    # Only needed for fuseki test
+    # ?vocabulary cube-meta:isUsedIn ?cube.
+#    ?dataset a dms:Dataset.
+#    ?dataset dms:hasVersion ?cube.
+#    ?dataset rdfs:label ?datasetName.
+#    ?cube a dms:Cube.
+#    ?cube rdfs:label ?cubeVersionName.
+#    ?termset a dms:Vocabulary.
+#    ?termset rdfs:label ?termsetName.
+#    ?termset dms:isUsedIn ?cube.
+    # Must be added inside lindas:dataMngt in all cases
+#                rdfs:label ?datasetLabel.
+#    ?datasetRoot    	a dms:CubesRoot;
+#    			rdfs:label ?name;
+# 	   		dms:hasVersion ?dataset.
+    }
+}
+SELECT *
+WHERE {
+#  BIND (<https://lindas.admin.ch/fsvo/animaldisease> AS ?g)
+#  BIND (<https://lindas.admin.ch/fsvo/cube> as ?g)
+   BIND (<https://lindas.admin.ch/cube/dimension> AS ?g)
+   BIND (<https://ld.admin.ch/cube/dimension/YesNo> AS ?termset)
+	GRAPH ?g {
+      		OPTIONAL {
+                ?termset a schema:DefinedTermSet;
+                    schema:name ?termsetName0.
+#                FILTER langMatches( lang(?termsetName0), "EN")
+                OPTIONAL {
+                    ?termset a cube-meta:SharedDimension.
+                    BIND ("SD-" AS ?termsetPrefix0)
+                }
+#                OPTIONAL {
+                    ?termset cube-meta:isUsedIn ?cube.
+#                }
+                BIND (COALESCE(?termsetPrefix0, "") AS ?termsetPrefix)
+                BIND (CONCAT(?termsetPrefix,?termsetName0) AS ?termsetName)
+            }
+            OPTIONAL {
+                ?cube a cube:Cube.
+                ?cube schema:name ?datasetName
+                OPTIONAL {
+                    ?cube schema:version ?cubeVersion.
+                    BIND (STR(?cubeVersion) AS ?cubeVersionName)}
+                ?dataset schema:hasPart ?cube}
+            OPTIONAL {
+                ?dataset a dcat:Dataset;
+                         schema:name ?datasetName.
+            }                    
+    }}
