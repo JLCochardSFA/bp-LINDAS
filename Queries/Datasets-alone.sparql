@@ -1,0 +1,29 @@
+PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX sfa: <https://lindas.admin.ch/sfa/>
+PREFIX blueprintConfig: <https://described.at/zazuko/blueprintConfig/>
+PREFIX flux: <https://flux.described.at/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <http://schema.org/>
+PREFIX cube: <https://cube.link/>
+PREFIX cube-meta: <https://cube.link/meta/>
+
+CONSTRUCT {
+    GRAPH sfa:dataMngt {
+        dms:containsDataset a rdf:Property;
+                            rdfs:domain dms:NamedGraph;
+                            rdfs:range dcat:Dataset.
+ 		
+    ?g dms:containsDataset ?dataset.
+    ?dataset a dms:Dataset.
+    ?dataset rdfs:label ?datasetName
+    }
+}
+WHERE {
+ ?dataset a dcat:Dataset; schema:name ?datasetName.
+ FILTER NOT EXISTS {?dataset a cube:Cube}
+ FILTER NOT EXISTS {?dataset schema:hasPart ?p}
+ FILTER langMatches( lang(?datasetName), "EN")   
+}
