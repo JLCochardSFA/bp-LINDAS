@@ -139,6 +139,12 @@ flux:VocabularyToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:targetClass dms:Vocabulary;
 	sh:class dms:Cube.
 	
+flux:DatasestToCubeLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "has cube";
+	sh:path dms:hasVersion;
+	sh:targetClass dms:Dataset;
+	sh:class dms:Cube.
+
 flux:CubesRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "has version";
 	sh:path dms:hasVersion;
