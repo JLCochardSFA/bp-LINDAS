@@ -1,0 +1,34 @@
+# Extrait la liste des datasets sur la base de la classe dcat/Dataset
+# Met en lien le dataset avec le Named Graph qui le contient
+
+PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX sfa: <https://lindas.admin.ch/sfa/>
+PREFIX blueprintConfig: <https://described.at/zazuko/blueprintConfig/>
+PREFIX flux: <https://flux.described.at/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <http://schema.org/>
+PREFIX cube: <https://cube.link/>
+PREFIX cube-meta: <https://cube.link/meta/>
+
+CONSTRUCT {
+    GRAPH sfa:dataMngt {
+        dms:containsDataset a rdf:Property;
+                            rdfs:domain dms:NamedGraph;
+                            rdfs:range dcat:Dataset.
+ 		
+        ?g dms:containsDataset ?termset.
+        ?termset a dms:Vocabulary.
+        ?termset rdfs:label ?termsetName
+    }
+}
+WHERE {
+    GRAPH ?g {
+      	?termset a schema:DefinedTermSet;
+                  schema:name ?termsetName.
+        FILTER NOT EXISTS { ?termset a cube-meta:SharedDimension}
+        FILTER langMatches( lang(?termsetName), "EN")    
+    }
+}                  
