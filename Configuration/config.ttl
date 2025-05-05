@@ -39,13 +39,13 @@ flux:Vocabulary a fluxShape:ClassMetadataShape;
 	sh:targetNode dms:Vocabulary.
 	
 # Maybe not needed
-flux:SharedDimension a fluxShape:ClassMetadataShape;
-	rdfs:label "Shared Vocabulary";
-	rdfs:comment "Vocabulary datasets contained in the LINDAS database that is defined as a shared dimension in cube structure";
-	fluxSchema:faIcon "fa-solid fa-table-list";
-	fluxSchema:colorIndex 4;
-	fluxSchema:searchPrio 3;
-	sh:targetNode dms:SharedDimension.
+#flux:SharedDimension a fluxShape:ClassMetadataShape;
+#	rdfs:label "Shared Vocabulary";
+#	rdfs:comment "Vocabulary datasets contained in the LINDAS database that is defined as a shared dimension in cube structure";
+#	fluxSchema:faIcon "fa-solid fa-table-list";
+#	fluxSchema:colorIndex 4;
+#	fluxSchema:searchPrio 3;
+#	sh:targetNode dms:SharedDimension.
 	
 flux:Cube a fluxShape:ClassMetadataShape;
 	rdfs:label "Cube";
@@ -63,13 +63,13 @@ flux:UndefinedDataset a fluxShape:ClassMetadataShape;
 	fluxSchema:searchPrio 3;
 	sh:targetNode dms:UndefinedDataset.
 	
-flux:CubesRoot a fluxShape:ClassMetadataShape;
-	rdfs:label "Cubes Root";
-	rdfs:comment "A virtual dataset bringing together versions of datasets.";
-	fluxSchema:faIcon "fa-solid fa-folder";
-	fluxSchema:colorIndex 2;
-	fluxSchema:searchPrio 3;
-	sh:targetNode dms:CubesRoot.
+#flux:CubesRoot a fluxShape:ClassMetadataShape;
+#	rdfs:label "Cubes Root";
+#	rdfs:comment "A virtual dataset bringing together versions of datasets.";
+#	fluxSchema:faIcon "fa-solid fa-folder";
+#	fluxSchema:colorIndex 2;
+#	fluxSchema:searchPrio 3;
+#	sh:targetNode dms:CubesRoot.
 	
 flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 	rdfs:label "Gov Unit";
@@ -91,11 +91,11 @@ flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 
 # blueprint links LINDAS
 
-flux:NamedgraphToDatasetsLink a sh:PropertyShape, fluxSchema:Link;
-	sh:name "contains";
-	sh:path dms:containsDataset;
-	sh:targetClass dms:NamedGraph;
-	sh:class dms:CubesRoot.
+#flux:NamedgraphToDatasetsLink a sh:PropertyShape, fluxSchema:Link;
+#	sh:name "contains";
+#	sh:path dms:containsDataset;
+#	sh:targetClass dms:NamedGraph;
+#	sh:class dms:CubesRoot.
 
 flux:NamedgraphToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "contains";
@@ -145,11 +145,11 @@ flux:DatasestToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:targetClass dms:Dataset;
 	sh:class dms:Cube.
 
-flux:CubesRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
-	sh:name "has version";
-	sh:path dms:hasVersion;
-	sh:targetClass dms:CubesRoot;
-	sh:class dms:Cube.
+#flux:CubesRootToDatasetVersionLink a sh:PropertyShape, fluxSchema:Link;
+#	sh:name "has version";
+#	sh:path dms:hasVersion;
+#	sh:targetClass dms:CubesRoot;
+#	sh:class dms:Cube.
 
 # fin blueprint links LINDAS
 
