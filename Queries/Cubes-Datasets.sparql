@@ -27,14 +27,15 @@ CONSTRUCT {
     ?cube rdfs:label ?cubeVersionName.
     }
 }
-
 WHERE {
-
     GRAPH ?g {
             ?cube a cube:Cube.
             ?cube schema:name ?cubeName0.
-            ?cube schema:version ?cubeVersion.
-            BIND (STRLANG(STR(?cubeVersion), "en") AS ?cubeVersionName)
+            OPTIONAL {
+                ?cube schema:version ?cubeVersion.
+                BIND (STRLANG(STR(?cubeVersion), "en") AS ?cubeVersionName0)
+            }
+            BIND (COALESCE(?cubeVersionName0,?cubeName0) AS ?cubeVersionName)
             ?dataset schema:hasPart ?cube
             OPTIONAL {?dataset schema:name ?datasetName0}
             BIND (COALESCE(?datasetName0,?cubeName0) AS ?datasetName)
