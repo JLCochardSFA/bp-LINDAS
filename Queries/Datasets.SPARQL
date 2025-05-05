@@ -13,20 +13,20 @@ PREFIX schema: <http://schema.org/>
 PREFIX cube: <https://cube.link/>
 PREFIX cube-meta: <https://cube.link/meta/>
 
-#CONSTRUCT {
-#  GRAPH sfa:dataMngt {
-#       dms:containsDataset  a rdf:Property;
-#                            rdfs:domain dms:NamedGraph;
-#                            rdfs:range dcat:Dataset.
-# 		
-#    ?g dms:containsDataset ?dataset.
+CONSTRUCT {
+    GRAPH sfa:dataMngt {
+        dms:containsDataset a rdf:Property;
+                            rdfs:domain dms:NamedGraph;
+                            rdfs:range dcat:Dataset.
+ 		
+    ?g dms:containsDataset ?dataset.
     # Only needed for fuseki test
     # ?vocabulary cube-meta:isUsedIn ?cube.
-#    ?dataset a dms:Dataset.
-#    ?dataset dms:hasVersion ?cube.
-#    ?dataset rdfs:label ?datasetName.
-#    ?cube a dms:Cube.
-#    ?cube rdfs:label ?cubeVersionName.
+    ?dataset a dms:Dataset.
+    ?dataset dms:hasVersion ?cube.
+    ?dataset rdfs:label ?datasetName.
+    ?cube a dms:Cube.
+    ?cube rdfs:label ?cubeVersionName.
 #    ?termset a dms:Vocabulary.
 #    ?termset rdfs:label ?termsetName.
 #    ?termset dms:isUsedIn ?cube.
@@ -37,36 +37,30 @@ PREFIX cube-meta: <https://cube.link/meta/>
 # 	   		dms:hasVersion ?dataset.
     }
 }
-SELECT *
+# SELECT *
 WHERE {
-#  BIND (<https://lindas.admin.ch/fsvo/animaldisease> AS ?g)
-#  BIND (<https://lindas.admin.ch/fsvo/cube> as ?g)
-   BIND (<https://lindas.admin.ch/cube/dimension> AS ?g)
-   BIND (<https://ld.admin.ch/cube/dimension/YesNo> AS ?termset)
-	GRAPH ?g {
-      		OPTIONAL {
-                ?termset a schema:DefinedTermSet;
-                    schema:name ?termsetName0.
-#                FILTER langMatches( lang(?termsetName0), "EN")
-                OPTIONAL {
-                    ?termset a cube-meta:SharedDimension.
-                    BIND ("SD-" AS ?termsetPrefix0)
-                }
-#                OPTIONAL {
-                    ?termset cube-meta:isUsedIn ?cube.
-#                }
-                BIND (COALESCE(?termsetPrefix0, "") AS ?termsetPrefix)
-                BIND (CONCAT(?termsetPrefix,?termsetName0) AS ?termsetName)
+    GRAPH ?g {
+      	OPTIONAL {
+            ?termset a schema:DefinedTermSet;
+                     schema:name ?termsetName.
+            FILTER NOT EXISTS { ?termset a cube-meta:SharedDimension}
+            FILTER langMatches( lang(?termsetName), "EN")
+            
+        }
+        OPTIONAL {
+            ?cube a cube:Cube.
+            ?cube schema:name ?datasetName
+            OPTIONAL {
+                ?cube schema:version ?cubeVersion.
+                BIND (STR(?cubeVersion) AS ?cubeVersionName)
             }
-            OPTIONAL {
-                ?cube a cube:Cube.
-                ?cube schema:name ?datasetName
-                OPTIONAL {
-                    ?cube schema:version ?cubeVersion.
-                    BIND (STR(?cubeVersion) AS ?cubeVersionName)}
-                ?dataset schema:hasPart ?cube}
-            OPTIONAL {
-                ?dataset a dcat:Dataset;
-                         schema:name ?datasetName.
-            }                    
-    }}
+            ?dataset schema:hasPart ?cube
+            FILTER langMatches( lang(?datasetName), "EN")
+        }
+        OPTIONAL {
+            ?dataset a dcat:Dataset;
+                     schema:name ?datasetName.
+            FILTER langMatches( lang(?datasetName), "EN")
+        }
+    }
+}                  
