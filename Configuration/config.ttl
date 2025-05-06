@@ -135,7 +135,7 @@ flux:NamedGraphToOrganizationLink a sh:PropertyShape, fluxSchema:Link;
 	
 flux:VocabularyToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "used in";
-	sh:path cube-meta:isUsedIn;
+	sh:path dms:isUsedIn;
 	sh:targetClass dms:Vocabulary;
 	sh:class dms:Cube.
 	
