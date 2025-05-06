@@ -38,14 +38,13 @@ flux:Vocabulary a fluxShape:ClassMetadataShape;
 	fluxSchema:searchPrio 3;
 	sh:targetNode dms:Vocabulary.
 	
-# Maybe not needed
-#flux:SharedDimension a fluxShape:ClassMetadataShape;
-#	rdfs:label "Shared Vocabulary";
-#	rdfs:comment "Vocabulary datasets contained in the LINDAS database that is defined as a shared dimension in cube structure";
-#	fluxSchema:faIcon "fa-solid fa-table-list";
-#	fluxSchema:colorIndex 4;
-#	fluxSchema:searchPrio 3;
-#	sh:targetNode dms:SharedDimension.
+flux:SharedDimension a fluxShape:ClassMetadataShape;
+	rdfs:label "Shared Vocabulary";
+	rdfs:comment "Vocabulary datasets contained in the LINDAS database that is defined as a shared dimension in cube structure";
+	fluxSchema:faIcon "fa-solid fa-table-list";
+	fluxSchema:colorIndex 4;
+	fluxSchema:searchPrio 3;
+	sh:targetNode dms:SharedDimension.
 	
 flux:Cube a fluxShape:ClassMetadataShape;
 	rdfs:label "Cube";
@@ -91,12 +90,6 @@ flux:GovernmentOrganization a fluxShape:ClassMetadataShape;
 
 # blueprint links LINDAS
 
-#flux:NamedgraphToDatasetsLink a sh:PropertyShape, fluxSchema:Link;
-#	sh:name "contains";
-#	sh:path dms:containsDataset;
-#	sh:targetClass dms:NamedGraph;
-#	sh:class dms:CubesRoot.
-
 flux:NamedgraphToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "contains";
 	sh:path dms:containsDataset;
@@ -114,12 +107,12 @@ flux:NamedgraphToVocabularyLink a sh:PropertyShape, fluxSchema:Link;
 	sh:path dms:containsDataset;
 	sh:targetClass dms:NamedGraph;
 	sh:class dms:Vocabulary.
-	
-#flux:NamedgraphToCubeLink a sh:PropertyShape, fluxSchema:Link;
-#	sh:name "contains";
-#	sh:path dms:containsDataset;
-#	sh:targetClass dms:NamedGraph;
-#	sh:class dms:Cube.
+
+flux:NamedgraphToVocabularyLink a sh:PropertyShape, fluxSchema:Link;
+	sh:name "contains";
+	sh:path dms:containsDataset;
+	sh:targetClass dms:NamedGraph;
+	sh:class dms:SharedDimension.
 	
 flux:NamedgraphToUndefDatasetLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "contains";
@@ -136,7 +129,7 @@ flux:NamedGraphToOrganizationLink a sh:PropertyShape, fluxSchema:Link;
 flux:VocabularyToCubeLink a sh:PropertyShape, fluxSchema:Link;
 	sh:name "used in";
 	sh:path dms:isUsedIn;
-	sh:targetClass dms:Vocabulary;
+	sh:targetClass dms:SharedDimension;
 	sh:class dms:Cube.
 	
 flux:DatasestToCubeLink a sh:PropertyShape, fluxSchema:Link;
@@ -235,7 +228,7 @@ fluxSchema:Container a rdfs:Class ;
 
 #
 #  Now we want to see the Datasete Root and the Vocabs used without the cube version node
-flux:VacabularyToCubesRootTreeLink a fluxSchema:CompositionToNodeLink ;
+flux:VocabularyToCubesRootTreeLink a fluxSchema:CompositionToNodeLink ;
    sh:targetClass flux:CubesRootTree ;           # the target class is the targetClass of the SHACL Shape - but the source of our link
    fluxSchema:target dms:Vocabulary ;               # this is the target of our link - the dms:Vocabulary
    rdfs:label "Used Vacabulary" ;             # a label we can show in the UI
