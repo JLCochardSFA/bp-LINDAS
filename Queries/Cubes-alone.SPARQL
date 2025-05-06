@@ -1,5 +1,5 @@
-# Extrait la liste des datasets sur la base de la classe dcat/Dataset
-# Met en lien le dataset avec le Named Graph qui le contient
+# Some cubes are not assigned to an upper dataset. They need de facto to be considered 
+# as datasets related to a Named Graph
 
 PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
