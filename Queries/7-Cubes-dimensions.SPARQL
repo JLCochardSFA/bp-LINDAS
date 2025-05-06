@@ -1,5 +1,6 @@
+# Provide some indications about the size of a cube in terms of number of observations and number of dimensions
+#
 # Dimension des cubes
-# Prédicats à définir
 #   dms:hasNbObservations
 #   dms:hasNbDimensions
 
