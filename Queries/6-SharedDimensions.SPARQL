@@ -1,6 +1,6 @@
 # Identify all the vocabularies marked as Shared Dimension
 # Build a name with in parentheses the number of cubes using this vocabulary
-# And relate to each of them
+# And relates to each of them
 
 PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
