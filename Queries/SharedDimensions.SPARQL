@@ -1,5 +1,3 @@
-# Needed to generate the relation between a shared dimension and a cube using it
-
 PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -13,16 +11,34 @@ PREFIX cube: <https://cube.link/>
 PREFIX cube-meta: <https://cube.link/meta/>
 
 CONSTRUCT {
-    GRAPH sfa:dataMngt {
-        dms:isUsedIn    a rdf:Property;
-                        rdfs:domain dms:SharedDimension;
-                        rdfs:range dcat:Cube.
-        ?sharedDimension dms:isUsedIn ?cube
+    GRAPH sfa:dataMngt {  
+        dms:containsDataset a rdf:Property;
+                            rdfs:domain dms:NamedGraph;
+                            rdfs:range dcat:Dataset.
+        
+        ?g dms:containsDataset ?termset.
+        ?termset a dms:Vocabulary.
+        ?termset rdfs:label ?termsetName.
+        ?termset dms:isUsedIn ?cube.
     }
 }
-# SELECT ?sharedDimension ?name ?cube 
+#SELECT ?termset ?cardinality ?termsetName1 ?cube
 WHERE {
-    ?sharedDimension 
-        a cube-meta:SharedDimension;
-        cube-meta:isUsedIn ?cube.
+    GRAPH ?g {
+        ?termset a cube-meta:SharedDimension.
+    }
+    OPTIONAL {?termset cube-meta:isUsedIn ?cube}
+
+    {
+        SELECT ?termset ?termsetName1 (count(?cube) AS ?cardinality)
+        WHERE {
+#    BIND (<https://ld.admin.ch/time/department> AS ?termset)
+            ?termset a cube-meta:SharedDimension.
+            ?termset schema:name ?termsetName0.
+            OPTIONAL {?termset cube-meta:isUsedIn ?cube.}
+            FILTER langMatches (lang(?termsetName0), "EN")
+            BIND(STR(?termsetName0) AS ?termsetName1)
+        } GROUP BY ?termset ?termsetName1
+    }
+    BIND (concat("SD (",STR(?cardinality),")-",?termsetName1) AS ?termsetName)
 }
