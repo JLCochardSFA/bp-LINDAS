@@ -203,10 +203,6 @@
 <https://culture.ld.admin.ch/sfa/stapfer-enquete-1799/3> <http://www.w3.org/2000/01/rdf-schema#label> "3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/cube> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/ubd003701> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd003701> <http://www.w3.org/2000/01/rdf-schema#label> "Traffic noise pollution, 2015"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd003701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd003701/1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd003701/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd003701/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701> <http://www.w3.org/2000/01/rdf-schema#label> "Traffic noise pollution"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd003701/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -214,6 +210,11 @@
 <https://environment.ld.admin.ch/foen/ubd003701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd003701/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701/3> <http://www.w3.org/2000/01/rdf-schema#label> "3"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd003701> <http://www.w3.org/2000/01/rdf-schema#label> "Traffic noise pollution, 2015"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd003701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd003701/1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd003701/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd003701/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd003701> <http://www.w3.org/2000/01/rdf-schema#label> "Traffic noise pollution"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd003701/5> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd003701/5> <http://www.w3.org/2000/01/rdf-schema#label> "5"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -226,39 +227,39 @@
 <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/5> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/5> <http://www.w3.org/2000/01/rdf-schema#label> "5"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/4> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/4> <http://www.w3.org/2000/01/rdf-schema#label> "4"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/3> <http://www.w3.org/2000/01/rdf-schema#label> "3"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/4> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://energy.ld.admin.ch/sfoe/bfe_ogd17_fuellungsgrad_speicherseen/4> <http://www.w3.org/2000/01/rdf-schema#label> "4"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/cube> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/ubd010701> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <http://www.w3.org/2000/01/rdf-schema#label> "Air pollution along the A2 and A13 - annual averages - NO and NO2"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/8> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701/8> <http://www.w3.org/2000/01/rdf-schema#label> "8"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/4> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701/4> <http://www.w3.org/2000/01/rdf-schema#label> "4"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/3> <http://www.w3.org/2000/01/rdf-schema#label> "3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/7> <http://www.w3.org/2000/01/rdf-schema#label> "7"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/8> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701/8> <http://www.w3.org/2000/01/rdf-schema#label> "8"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/6> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/6> <http://www.w3.org/2000/01/rdf-schema#label> "6"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/5> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/5> <http://www.w3.org/2000/01/rdf-schema#label> "5"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/9> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/9> <http://www.w3.org/2000/01/rdf-schema#label> "9"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd010701/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/4> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd010701/4> <http://www.w3.org/2000/01/rdf-schema#label> "4"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd010701/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd010701/2> <http://www.w3.org/2000/01/rdf-schema#label> "2"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -298,6 +299,9 @@
 <https://environment.ld.admin.ch/foen/ubd000503> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000503/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/2> <http://www.w3.org/2000/01/rdf-schema#label> "2"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000503> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000503/9> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000503/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000503/9> <http://www.w3.org/2000/01/rdf-schema#label> "9"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000503/8> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/8> <http://www.w3.org/2000/01/rdf-schema#label> "8"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -307,9 +311,6 @@
 <https://environment.ld.admin.ch/foen/ubd000503> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000503/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/7> <http://www.w3.org/2000/01/rdf-schema#label> "7"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000503> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000503/9> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000503/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000503/9> <http://www.w3.org/2000/01/rdf-schema#label> "9"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000503/4> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000503/4> <http://www.w3.org/2000/01/rdf-schema#label> "4"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -319,33 +320,33 @@
 <https://lindas.admin.ch/foen/cube> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/ubd000504> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504> <http://www.w3.org/2000/01/rdf-schema#label> "CO2 emissions from thermal fuels (corrected for weather conditions) and motor fuels"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/6> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/6> <http://www.w3.org/2000/01/rdf-schema#label> "6"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/7> <http://www.w3.org/2000/01/rdf-schema#label> "7"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/4> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/4> <http://www.w3.org/2000/01/rdf-schema#label> "4"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/5> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/5> <http://www.w3.org/2000/01/rdf-schema#label> "5"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/6> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/6> <http://www.w3.org/2000/01/rdf-schema#label> "6"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/3> <http://www.w3.org/2000/01/rdf-schema#label> "3"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/2> <http://www.w3.org/2000/01/rdf-schema#label> "2"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/8> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/ubd000504/8> <http://www.w3.org/2000/01/rdf-schema#label> "8"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/5> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/5> <http://www.w3.org/2000/01/rdf-schema#label> "5"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/4> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/4> <http://www.w3.org/2000/01/rdf-schema#label> "4"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/9> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/ubd000504/9> <http://www.w3.org/2000/01/rdf-schema#label> "9"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/ubd000504/8> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/ubd000504/8> <http://www.w3.org/2000/01/rdf-schema#label> "8"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/gefahren-waldbrand-warnung> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/gefahren-waldbrand-warnung> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/gefahren-waldbrand-warnung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/gefahren-waldbrand-warnung> <http://www.w3.org/2000/01/rdf-schema#label> "Forest fire danger"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -361,15 +362,15 @@
 <https://lindas.admin.ch/foen/cube> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/BFS_cofog_national> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national> <http://www.w3.org/2000/01/rdf-schema#label> "Expenditure of general government by function (COFOG)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/BFS_cofog_national> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/BFS_cofog_national/2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/BFS_cofog_national/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/BFS_cofog_national/2> <http://www.w3.org/2000/01/rdf-schema#label> "2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/BFS_cofog_national/1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/BFS_cofog_national/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/BFS_cofog_national/3> <http://www.w3.org/2000/01/rdf-schema#label> "3"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/BFS_cofog_national> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/BFS_cofog_national/2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/BFS_cofog_national/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/BFS_cofog_national/2> <http://www.w3.org/2000/01/rdf-schema#label> "2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/cube> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/EFV_cofog_international> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/EFV_cofog_international> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/EFV_cofog_international> <http://www.w3.org/2000/01/rdf-schema#label> "International comparison: Expenditure of general government by function (COFOG)"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -379,18 +380,27 @@
 <https://environment.ld.admin.ch/foen/EFV_cofog_international> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/EFV_cofog_international/1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/EFV_cofog_international/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/EFV_cofog_international/1> <http://www.w3.org/2000/01/rdf-schema#label> "1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lindas.admin.ch/foen/hydro> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/.well-known/void/dataset/hydro> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/.well-known/void/dataset/hydro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/.well-known/void/dataset/hydro> <http://www.w3.org/2000/01/rdf-schema#label> "Current hydrologicla monitoring data from the FOEN"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/.well-known/void/dataset/hydro> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/hydro/river> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/hydro/river> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/hydro/river> <http://www.w3.org/2000/01/rdf-schema#label> "Current hydrological monitoring data from the FOEN - River"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/.well-known/void/dataset/hydro> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/hydro/lake> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/hydro/lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/hydro/lake> <http://www.w3.org/2000/01/rdf-schema#label> "Current hydrological monitoring data from the FOEN - Lakes"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by diameter classes"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by diameter at breast height (main diameter classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -414,20 +424,21 @@
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1030/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by exposition (8 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by aspect (9 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by exposition (8 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1034/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by tree species (5 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -437,12 +448,12 @@
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1157/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1265/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1265/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1265/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by tree state (alive/dead)"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -466,65 +477,65 @@
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1266/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by giants"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by giant (yes/no)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by giants"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1282/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by extent of areal damage (10 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by extent of damage gaps (10 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by extent of areal damage (10 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1310/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by dominant diameter (class size 10cm)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by dominant diameter at breast height (standing-living - in 8 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by dominant diameter (class size 10cm)"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1316/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by diameter (class size 10 cm)"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -536,18 +547,21 @@
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by diameter (class size 10 cm)"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1317/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by length of lying dead sample tree (6 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by length of lying dead tree (6 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -556,21 +570,18 @@
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1335/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by stem height of broken snags (6 classes)"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-1805/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
@@ -804,15 +815,15 @@
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <http://www.w3.org/2000/01/rdf-schema#label> "NFI: Topics by site quality"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2024-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2024-1> <http://www.w3.org/2000/01/rdf-schema#label> "2024.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-3> <http://www.w3.org/2000/01/rdf-schema#label> "2023.3"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-2> <http://www.w3.org/2000/01/rdf-schema#label> "2023.2"@en <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube> <https://schema.ld.admin.ch/datamngt#hasVersion> <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Cube> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/nfi_C-894/cube/2023-1> <http://www.w3.org/2000/01/rdf-schema#label> "2023.1"@en <https://lindas.admin.ch/sfa/dataMngt> .
