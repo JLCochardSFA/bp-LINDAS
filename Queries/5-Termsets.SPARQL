@@ -1,5 +1,6 @@
-# Extrait la liste des datasets sur la base de la classe dcat/Dataset
+# Extrait la liste des vocabulaires (Defined Termsets)
 # Met en lien le dataset avec le Named Graph qui le contient
+# Ne prend en considération que ceux qui ne sont pas identifiés comme Shared Dimensions
 
 PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
