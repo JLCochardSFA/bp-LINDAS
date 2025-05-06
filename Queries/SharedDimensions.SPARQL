@@ -1,3 +1,7 @@
+# Identify all the vocabularies marked as Shared Dimension
+# Build a name with in parentheses the number of cubes using this vocabulary
+# And relate to each of them
+
 PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -17,12 +21,13 @@ CONSTRUCT {
                             rdfs:range dcat:Dataset.
         
         ?g dms:containsDataset ?termset.
-        ?termset a dms:Vocabulary.
+        ?termset a dms:SharedDimension.
         ?termset rdfs:label ?termsetName.
         ?termset dms:isUsedIn ?cube.
+        ?termset dms:Cardinality ?cardinality.
     }
 }
-#SELECT ?termset ?cardinality ?termsetName1 ?cube
+
 WHERE {
     GRAPH ?g {
         ?termset a cube-meta:SharedDimension.
@@ -32,7 +37,6 @@ WHERE {
     {
         SELECT ?termset ?termsetName1 (count(?cube) AS ?cardinality)
         WHERE {
-#    BIND (<https://ld.admin.ch/time/department> AS ?termset)
             ?termset a cube-meta:SharedDimension.
             ?termset schema:name ?termsetName0.
             OPTIONAL {?termset cube-meta:isUsedIn ?cube.}
@@ -40,5 +44,5 @@ WHERE {
             BIND(STR(?termsetName0) AS ?termsetName1)
         } GROUP BY ?termset ?termsetName1
     }
-    BIND (concat("SD (",STR(?cardinality),")-",?termsetName1) AS ?termsetName)
+    BIND (concat(?termsetName1," (",STR(?cardinality),")") AS ?termsetName)
 }
