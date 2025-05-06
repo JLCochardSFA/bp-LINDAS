@@ -1,3 +1,5 @@
+# Identify the datasets that are stand-alone, namely not in relation to a cube structure.
+
 PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
