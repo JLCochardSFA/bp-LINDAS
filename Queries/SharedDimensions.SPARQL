@@ -15,7 +15,7 @@ PREFIX cube-meta: <https://cube.link/meta/>
 CONSTRUCT {
     GRAPH sfa:dataMngt {
         dms:isUsedIn    a rdf:Property;
-                        rdfs:domain dms:Vocabulary;
+                        rdfs:domain dms:SharedDimension;
                         rdfs:range dcat:Cube.
         ?sharedDimension dms:isUsedIn ?cube
     }
