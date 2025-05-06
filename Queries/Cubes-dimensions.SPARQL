@@ -1,0 +1,29 @@
+# Dimension des cubes
+# Prédicats à définir
+#   dms:hasNbObservations
+#   dms:hasNbDimensions
+
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX schema: <http://schema.org/>
+PREFIX dms: <https://schema.ld.admin.ch/datamngt/>
+PREFIX ld: <https://ld.admin.ch/>
+PREFIX cube: <https://cube.link/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+CONSTRUCT {
+    GRAPH ld:DataMngt {
+        ?cube dms:hasNbObservations ?nbObs;
+              dms:hasNbDimensions ?nbDim}
+} WHERE {
+    ?cube a cube:Cube, dcat:Dataset.
+    {
+        SELECT ?cube (count(?obs) AS ?nbObs) WHERE {
+            ?cube cube:observationSet / cube:observation ?obs.
+        } GROUP BY ?cube
+    }
+    {
+        SELECT ?cube (count(?dim) AS ?nbDim) WHERE {
+            ?cube cube:observationConstraint / sh:property ?dim
+        } GROUP BY ?cube
+    } 
+}
