@@ -1,5 +1,6 @@
 # Some cubes are not assigned to an upper dataset. They need de facto to be considered 
 # as datasets related to a Named Graph
+# This case happens when a cube is not versionized
 
 PREFIX dms: <https://schema.ld.admin.ch/datamngt#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
