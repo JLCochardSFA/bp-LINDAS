@@ -1,366 +1,366 @@
 <https://schema.ld.admin.ch/datamngt#containsDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://schema.ld.admin.ch/datamngt#containsDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.ld.admin.ch/datamngt#NamedGraph> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://schema.ld.admin.ch/datamngt#containsDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lindas.admin.ch/nl/isil> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://culture.ld.admin.ch/isil> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://culture.ld.admin.ch/isil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://culture.ld.admin.ch/isil> <http://www.w3.org/2000/01/rdf-schema#label> "ISIL-Kennzeichen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/sfa/opendataswiss> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/opendataswiss/category> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/opendataswiss/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/opendataswiss/category> <http://www.w3.org/2000/01/rdf-schema#label> "Categories of opendata.swiss"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://lindas.admin.ch/meta> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/vocabulary/CreativeWorkStatus> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/vocabulary/CreativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/vocabulary/CreativeWorkStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Work Status"@en <https://lindas.admin.ch/sfa/dataMngt> .
-<https://lindas.admin.ch/meta> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/vocabulary/TermsOfUse> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/vocabulary/TermsOfUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/vocabulary/TermsOfUse> <http://www.w3.org/2000/01/rdf-schema#label> "Terms Of Use"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/opendataswiss/category> <http://www.w3.org/2000/01/rdf-schema#label> "Kategorien von opendata.swiss"@de <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lindas.admin.ch/lindas-ech> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/ech/97/legalforms> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/ech/97/legalforms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/ech/97/legalforms> <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsformen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/sfa/opendataswiss> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/opendataswiss/org> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/opendataswiss/org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/opendataswiss/org> <http://www.w3.org/2000/01/rdf-schema#label> "The organisations of opendata.swiss"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/opendataswiss/org> <http://www.w3.org/2000/01/rdf-schema#label> "Die Organisationen von opendata.swiss"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fsvo/animaldisease> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://agriculture.ld.admin.ch/fsvo/animal-disease/animal-group> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://agriculture.ld.admin.ch/fsvo/animal-disease/animal-group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://agriculture.ld.admin.ch/fsvo/animal-disease/animal-group> <http://www.w3.org/2000/01/rdf-schema#label> "Animal group"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://agriculture.ld.admin.ch/fsvo/animal-disease/animal-group> <http://www.w3.org/2000/01/rdf-schema#label> "Tiergruppe"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ABR24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ABR24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ABR24> <http://www.w3.org/2000/01/rdf-schema#label> "Abk\u00FCrzungen der Titel der Bundeserlasse"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ABR24> <http://www.w3.org/2000/01/rdf-schema#label> "Abk\u00FCrzungen der Titel der Bundeserlasse"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ADFA23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ADFA23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ADFA23> <http://www.w3.org/2000/01/rdf-schema#label> "Names of organisational units of the Federal Administration"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ADFA23> <http://www.w3.org/2000/01/rdf-schema#label> "Bezeichnungen der Organisationseinheiten der Bundesverwaltung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/AHV18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/AHV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/AHV18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the OASI"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/AHV18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der AHV/IV"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ARB17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ARB17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ARB17> <http://www.w3.org/2000/01/rdf-schema#label> "Employment Law Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ARB17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des schweizerischen Arbeitsrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ASY14> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ASY14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ASY14> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Swiss asylum law"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ASY14> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des schweizerischen Asylrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ATOM23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ATOM23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ATOM23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of nuclear waste disposal"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ATOM23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der nuklearen Entsorgung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/AUS14> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/AUS14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/AUS14> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Swiss law on foreign nationals"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/AUS14> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des schweizerischen Ausl\u00E4nderrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/BAU17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/BAU17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/BAU17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of construction"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/BAU17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Bauwesens"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/BELA16> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/BELA16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/BELA16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie Behelf Sachbereich Lage"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/BELA16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie Behelf Sachbereich Lage"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/BILD18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/BILD18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/BILD18> <http://www.w3.org/2000/01/rdf-schema#label> "Education terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/BILD18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Bildungswesens"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/BIOME20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/BIOME20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/BIOME20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of biomedicine"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/BIOME20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Biomedizin"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/BPG17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/BPG17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/BPG17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of federal personnel law"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/BPG17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Bundespersonalrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/BVG17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/BVG17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/BVG17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the Legislation on Occupational Pension Funds"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/BVG17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Gesetzgebung der beruflichen Vorsorge"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/BVZ24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/BVZ24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/BVZ24> <http://www.w3.org/2000/01/rdf-schema#label> "Official List of SERI of protected titles"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/BVZ24> <http://www.w3.org/2000/01/rdf-schema#label> "Offizielle Berufsbezeichnungen des SBFI (Titel)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/CHI15> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/CHI15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/CHI15> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of chemicals"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/CHI15> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Chemikalien"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/CPC23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/CPC23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/CPC23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Swiss civil procedure"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/CPC23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der schweizerischen Zivilprozessordnung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/CPP18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/CPP18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/CPP18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Swiss criminal procedure"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/CPP18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der schweizerischen Strafprozessordnung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/DEC19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/DEC19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/DEC19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Abfallentsorgung"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/DEC19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Abfallentsorgung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/DIGIT22> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/DIGIT22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/DIGIT22> <http://www.w3.org/2000/01/rdf-schema#label> "Digitalisation Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/DIGIT22> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Digitalisierung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/DROIT21> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/DROIT21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/DROIT21> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/DROIT21> <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsterminologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/DSCHU24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/DSCHU24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/DSCHU24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of data protection legislation"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/DSCHU24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Gesetzgebung \u00FCber den Datenschutz"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/DURAB21> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/DURAB21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/DURAB21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of sustainable development"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/DURAB21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der nachhaltigen Entwicklung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ECON18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ECON18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ECON18> <http://www.w3.org/2000/01/rdf-schema#label> "Wirtschaftsterminologie"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ECON18> <http://www.w3.org/2000/01/rdf-schema#label> "Wirtschaftsterminologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/EGOV19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/EGOV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/EGOV19> <http://www.w3.org/2000/01/rdf-schema#label> "E-Government-Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/EGOV19> <http://www.w3.org/2000/01/rdf-schema#label> "E-Government-Terminologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ENR22> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ENR22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ENR22> <http://www.w3.org/2000/01/rdf-schema#label> "Energy terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ENR22> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Energie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ERB18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ERB18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ERB18> <http://www.w3.org/2000/01/rdf-schema#label> "Succession law terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ERB18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Erbrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/EWB17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/EWB17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/EWB17> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Dictionary"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/EWB17> <http://www.w3.org/2000/01/rdf-schema#label> "Eidgen\u00F6ssisches W\u00F6rterb\u00FCchlein"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/FAMI14> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/FAMI14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/FAMI14> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Civil Code terminology (Family Law)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/FAMI14> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Schweizerischen Zivilgesetzbuchs (Familienrecht)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/FAMZU19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/FAMZU19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/FAMZU19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of family allowances"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/FAMZU19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Familienzulagen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/FHS19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/FHS19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/FHS19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Fachhochschulen"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/FHS19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Fachhochschulen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/FIBS21> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/FIBS21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/FIBS21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Handbuchs F\u00FChrung im Bev\u00F6lkerungsschutz"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/FIBS21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Handbuchs F\u00FChrung im Bev\u00F6lkerungsschutz"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/FIF20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/FIF20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/FIF20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of research and innovation promotion"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/FIF20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Forschungs- und Innovationsf\u00F6rderung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/FMA16> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/FMA16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/FMA16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the Financial Market Supervision"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/FMA16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Finanzmarktaufsicht"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/FORME21> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/FORME21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/FORME21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of reproductive medicine"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/FORME21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Fortpflanzungsmedizin"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/GENTE20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/GENTE20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/GENTE20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of non-human gene technology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/GENTE20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Gentechnik im Ausserhumanbereich"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/GEOD19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/GEOD19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/GEOD19> <http://www.w3.org/2000/01/rdf-schema#label> "Geodesy terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/GEOD19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Geod\u00E4sie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/GEOL23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/GEOL23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/GEOL23> <http://www.w3.org/2000/01/rdf-schema#label> "Geology terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/GEOL23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Geologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/GRF19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/GRF19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/GRF19> <http://www.w3.org/2000/01/rdf-schema#label> "Land register terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/GRF19> <http://www.w3.org/2000/01/rdf-schema#label> "Grundbuch-Terminologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/GWG15> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/GWG15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/GWG15> <http://www.w3.org/2000/01/rdf-schema#label> "Money Laundering and Terrorist Financing Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/GWG15> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Geldw\u00E4scherei und Terrorismusfinanzierung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/INFEC20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/INFEC20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/INFEC20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the communicable diseases"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/INFEC20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der \u00FCbertragbaren Krankheiten"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/INI24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/INI24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/INI24> <http://www.w3.org/2000/01/rdf-schema#label> "Titles of popular initiatives"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/INI24> <http://www.w3.org/2000/01/rdf-schema#label> "Titel der eidgen\u00F6ssischen Volksinitiativen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/IRS17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/IRS17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/IRS17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of International Mutual Assistance in Criminal Matters"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/IRS17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der internationalen Rechtshilfe in Strafsachen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/IUFRO19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/IUFRO19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/IUFRO19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology Forest Management"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/IUFRO19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Forsteinrichtung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/KLIMA22> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/KLIMA22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/KLIMA22> <http://www.w3.org/2000/01/rdf-schema#label> "Climate Change Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/KLIMA22> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Klimawandels"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/KRIMI18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/KRIMI18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/KRIMI18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Crime Statistics"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/KRIMI18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Kriminalstatistik"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/LDA17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/LDA17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/LDA17> <http://www.w3.org/2000/01/rdf-schema#label> "Copyright"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/LDA17> <http://www.w3.org/2000/01/rdf-schema#label> "Urheberrecht"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/LOICH24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/LOICH24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/LOICH24> <http://www.w3.org/2000/01/rdf-schema#label> "Titles of Swiss federal legislation"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/LOICH24> <http://www.w3.org/2000/01/rdf-schema#label> "Titel der Erlasse des schweizerischen Bundesrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/MEDAP21> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/MEDAP21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/MEDAP21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of medicine (anatomy, pathology)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/MEDAP21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Medizin (Anatomie, Pathologie)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/MET16> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/MET16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/MET16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Metrology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/MET16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Metrologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/METE14> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/METE14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/METE14> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Meteorology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/METE14> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Meteorologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/MIET17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/MIET17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/MIET17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of tenancy law"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/MIET17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Mietrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/MWST22> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/MWST22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/MWST22> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Mehrwertsteuer"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/MWST22> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Mehrwertsteuer"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/NADI18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/NADI18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/NADI18> <http://www.w3.org/2000/01/rdf-schema#label> "Intelligence service terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/NADI18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Nachrichtendienstes"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/NAS23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/NAS23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/NAS23> <http://www.w3.org/2000/01/rdf-schema#label> "Sustainable Development and Performance Review in Protection Forests (FOEN)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/NAS23> <http://www.w3.org/2000/01/rdf-schema#label> "Nachhaltigkeit und Erfolgskontrolle im Schutzwald (BAFU)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/NUC23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/NUC23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/NUC23> <http://www.w3.org/2000/01/rdf-schema#label> "Nuclear facility terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/NUC23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Kernanlagen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/OAI13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/OAI13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/OAI13> <http://www.w3.org/2000/01/rdf-schema#label> "OAIS Terminology - Reference Model for an Open Archival Information System"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/OAI13> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie OAIS - Referenzmodell f\u00FCr ein Offenes-Archiv-Informationssystem"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/OEREB16> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/OEREB16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/OEREB16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the PLR-cadastre"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/OEREB16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des \u00D6REB-Katasters"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ORV19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ORV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ORV19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the Code of Obligations"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ORV19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Obligationenrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ORVER17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ORVER17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ORVER17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the Code of Obligations (contracts)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ORVER17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Obligationenrechts (Vertr\u00E4ge)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/PDA12> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/PDA12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/PDA12> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the protection of adults"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/PDA12> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Erwachsenenschutzrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/PDAM18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/PDAM18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/PDAM18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of adult and child protection"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/PDAM18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Kindes- und Erwachsenenschutzrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/PEN15> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/PEN15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/PEN15> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Swiss criminal law"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/PEN15> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des schweizerischen Strafrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/PFS17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/PFS17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/PFS17> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss parliamentary terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/PFS17> <http://www.w3.org/2000/01/rdf-schema#label> "Schweizerische parlamentarische Terminologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/PNR24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/PNR24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/PNR24> <http://www.w3.org/2000/01/rdf-schema#label> "Names of National Research Programmes"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/PNR24> <http://www.w3.org/2000/01/rdf-schema#label> "Bezeichnungen der nationalen Forschungsprogramme"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/POG22> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/POG22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/POG22> <http://www.w3.org/2000/01/rdf-schema#label> "Geo-political denominations (states)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/POG22> <http://www.w3.org/2000/01/rdf-schema#label> "Geo-politische Benennungen (Staaten)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/POR19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/POR19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/POR19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of political rights"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/POR19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der politischen Rechte"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/PPM12> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/PPM12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/PPM12> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of military criminal procedure"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/PPM12> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Milit\u00E4rstrafprozesses"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/RAUM18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/RAUM18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/RAUM18> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Planning Terminology (RPG/ETHZ)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/RAUM18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Raumplanung (RPG/ETHZ)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/RETT18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/RETT18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/RETT18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of rescue medicin and emergency"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/RETT18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Rettungswesens"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/RMAB24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/RMAB24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/RMAB24> <http://www.w3.org/2000/01/rdf-schema#label> "Gestion f\u00E9d\u00E9rale des ressources"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/RMAB24> <http://www.w3.org/2000/01/rdf-schema#label> "Ressourcenmanagement Bund"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SACH18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SACH18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SACH18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of property law"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SACH18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Sachenrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SBFIB19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SBFIB19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SBFIB19> <http://www.w3.org/2000/01/rdf-schema#label> "Vocational and Professional Education and Training Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SBFIB19> <http://www.w3.org/2000/01/rdf-schema#label> "Berufsbildungsterminologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SCHKG24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SCHKG24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SCHKG24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Debt Collection and Bankruptcy"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SCHKG24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Schuldbetreibungs- und Konkursrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SNU23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SNU23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SNU23> <http://www.w3.org/2000/01/rdf-schema#label> "Nuclear Safety Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SNU23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Sicherheit von Kernanlagen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SOC20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SOC20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SOC20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Gesellschaftsrechts"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SOC20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Gesellschaftsrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SPIEL19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SPIEL19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SPIEL19> <http://www.w3.org/2000/01/rdf-schema#label> "Spielbankenterminologie"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SPIEL19> <http://www.w3.org/2000/01/rdf-schema#label> "Spielbankenterminologie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SPRA20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SPRA20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SPRA20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the law on languages"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SPRA20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Sprachenrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/STSCH23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/STSCH23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/STSCH23> <http://www.w3.org/2000/01/rdf-schema#label> "Radiation protection terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/STSCH23> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Strahlenschutzes"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SVG20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SVG20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SVG20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Strassenverkehrsrechts"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SVG20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Strassenverkehrsrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/TITPA12> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/TITPA12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/TITPA12> <http://www.w3.org/2000/01/rdf-schema#label> "Titles of parliamentary initiatives"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/TITPA12> <http://www.w3.org/2000/01/rdf-schema#label> "Titel der parlamentarischen Initiativen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/TRAME21> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/TRAME21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/TRAME21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of transplant medicine"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/TRAME21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Transplantationsmedizin"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/TSS16> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/TSS16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/TSS16> <http://www.w3.org/2000/01/rdf-schema#label> "Health System Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/TSS16> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Gesundheitssystems"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/UFAG13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/UFAG13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/UFAG13> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of agriculture"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/UFAG13> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Landwirtschaft"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/WAFFE18> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/WAFFE18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/WAFFE18> <http://www.w3.org/2000/01/rdf-schema#label> "Weapons Law Terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/WAFFE18> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Waffenrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/WEA19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/WEA19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/WEA19> <http://www.w3.org/2000/01/rdf-schema#label> "Doctrinals terms of the armed forces"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/WEA19> <http://www.w3.org/2000/01/rdf-schema#label> "Doktrinrelevante Begriffe der Armee"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/WWI17> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/WWI17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/WWI17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of flood protection (FOEN)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/WWI17> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Hochwasserschutzes (BAFU)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ZGB20> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ZGB20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ZGB20> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Civil Code terminology (ad-hoc entries)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ZGB20> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Schweizerischen Zivilgesetzbuchs (punktuelle Eintr\u00E4ge)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ZIV15> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ZIV15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ZIV15> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the Central Office for Civilian Service"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ZIV15> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Vollzugsstelle f\u00FCr den Zivildienst"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ZSBS21> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ZSBS21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ZSBS21> <http://www.w3.org/2000/01/rdf-schema#label> "Civil defence and civil protection terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ZSBS21> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Bev\u00F6lkerungsschutzes und des Zivilschutzes"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ZSW11> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ZSW11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ZSW11> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des schweizerischen Zivilstandswesens"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ZSW11> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des schweizerischen Zivilstandswesens"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/KAR24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/KAR24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/KAR24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the law on cartels"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/KAR24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Kartellrechts"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/LUFT24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/LUFT24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/LUFT24> <http://www.w3.org/2000/01/rdf-schema#label> "Air pollution control terminology"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/LUFT24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Luftreinhaltung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/ADFB23> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/ADFB23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/ADFB23> <http://www.w3.org/2000/01/rdf-schema#label> "Names of organisational units of the Federal Administration"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/ADFB23> <http://www.w3.org/2000/01/rdf-schema#label> "Bezeichnungen der Organisationseinheiten der Bundesverwaltung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/KOM24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/KOM24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/KOM24> <http://www.w3.org/2000/01/rdf-schema#label> "Names of parliamentary committees and extra-parliamentary commissions"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/KOM24> <http://www.w3.org/2000/01/rdf-schema#label> "Bezeichnungen der parlamentarischen und ausserparlamentarischen Kommissionen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/terminology-office/ACH> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/terminology-office/ACH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/terminology-office/ACH> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss Federal Administration"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/terminology-office/ACH> <http://www.w3.org/2000/01/rdf-schema#label> "Schweizerische Bundesverwaltung"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/glossary/WAH11> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/glossary/WAH11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/glossary/WAH11> <http://www.w3.org/2000/01/rdf-schema#label> "ABC of political rights"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/glossary/WAH11> <http://www.w3.org/2000/01/rdf-schema#label> "ABC der politischen Rechte"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/glossary/KI_AI_2022> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/glossary/KI_AI_2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/glossary/KI_AI_2022> <http://www.w3.org/2000/01/rdf-schema#label> "Artificial Intelligence"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/glossary/KI_AI_2022> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstliche Intelligenz"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/glossary/COVID-19> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/glossary/COVID-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/glossary/COVID-19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the COVID-19 pandemic"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/glossary/COVID-19> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Covid-19-Pandemie"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/AUT24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/AUT24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/AUT24> <http://www.w3.org/2000/01/rdf-schema#label> "Names of Swiss federal authorities (without the Federal Administration)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/AUT24> <http://www.w3.org/2000/01/rdf-schema#label> "Bezeichnungen der schweizerischen Bundesbeh\u00F6rden (ohne Bundesverwaltung)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/glossary/MEDABF24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/glossary/MEDABF24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/glossary/MEDABF24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Healthcare Waste"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/glossary/MEDABF24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der medizinischen Abf\u00E4lle"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/glossary/DIM24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/glossary/DIM24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/glossary/DIM24> <http://www.w3.org/2000/01/rdf-schema#label> "data and information management"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/glossary/DIM24> <http://www.w3.org/2000/01/rdf-schema#label> "Daten- und Informationsmanagement"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/TIT24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/TIT24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/TIT24> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss federal authorities: titles of public officials"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/TIT24> <http://www.w3.org/2000/01/rdf-schema#label> "Schweizerische Bundesbeh\u00F6rden: Titel der Amtstr\u00E4ger"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/terminology-office/CHU> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/terminology-office/CHU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/terminology-office/CHU> <http://www.w3.org/2000/01/rdf-schema#label> "United Nations High Commissioner for Refugees"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/terminology-office/CHU> <http://www.w3.org/2000/01/rdf-schema#label> "Hochkommissariat der Vereinten Nationen f\u00FCr Fl\u00FCchtlinge"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SBB10> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SBB10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SBB10> <http://www.w3.org/2000/01/rdf-schema#label> "EN: Terminologie der SBB"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SBB10> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der SBB"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/EDA24> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/EDA24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/EDA24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of the Federal Department of Foreign Affairs"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/EDA24> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Eidgen\u00F6ssischen Departements f\u00FCr ausw\u00E4rtige Angelegenheiten"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/terminology-office/EDA> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/terminology-office/EDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/terminology-office/EDA> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Department of Foreign Affairs"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/terminology-office/EDA> <http://www.w3.org/2000/01/rdf-schema#label> "Eidgen\u00F6ssisches Departement f\u00FCr ausw\u00E4rtige Angelegenheiten"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fso/i14y> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss airports with scheduled and charter services"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE> <http://www.w3.org/2000/01/rdf-schema#label> "Schweizer Flugh\u00E4fen mit Linien- und Charterverkehr"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/glossary/UMWELT25> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/glossary/UMWELT25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/glossary/UMWELT25> <http://www.w3.org/2000/01/rdf-schema#label> "Environmental protection"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/glossary/UMWELT25> <http://www.w3.org/2000/01/rdf-schema#label> "Umweltschutz"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/DIM25> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/DIM25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/DIM25> <http://www.w3.org/2000/01/rdf-schema#label> "data and information management"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/DIM25> <http://www.w3.org/2000/01/rdf-schema#label> "Daten- und Informationsmanagement"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/SOL08> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/SOL08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/SOL08> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Bodenschutzes (BAFU)"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/SOL08> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie des Bodenschutzes (BAFU)"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/CYBER25> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/CYBER25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/CYBER25> <http://www.w3.org/2000/01/rdf-schema#label> "Terminology of Cybersecurity"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/CYBER25> <http://www.w3.org/2000/01/rdf-schema#label> "Terminologie der Cybersicherheit"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/termdat> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/termdat/glossary/ALTLASTEN> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/termdat/glossary/ALTLASTEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/termdat/glossary/ALTLASTEN> <http://www.w3.org/2000/01/rdf-schema#label> "Contaminated sites terminology 2025"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/termdat/glossary/ALTLASTEN> <http://www.w3.org/2000/01/rdf-schema#label> "Altlastenterminologie 2025"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/proceduralrequest> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ch.paf.link/dimension/procedural-request-type> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ch.paf.link/dimension/procedural-request-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ch.paf.link/dimension/procedural-request-type> <http://www.w3.org/2000/01/rdf-schema#label> "Procedural Request Types"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ch.paf.link/dimension/procedural-request-type> <http://www.w3.org/2000/01/rdf-schema#label> "Parlamentarische Vorst\u00F6sse"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fso/i14y> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE/version/1.0.0> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE/version/1.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE/version/1.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Swiss airports with scheduled and charter services"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/i14y/DV_ARP_CH_NAME_SCOPE/version/1.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Schweizer Flugh\u00E4fen mit Linien- und Charterverkehr"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fso/i14y> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/i14y/DV_SEXE> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/i14y/DV_SEXE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/i14y/DV_SEXE> <http://www.w3.org/2000/01/rdf-schema#label> "Sex"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/i14y/DV_SEXE> <http://www.w3.org/2000/01/rdf-schema#label> "Geschlecht"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fso/i14y> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://register.ld.admin.ch/i14y/DV_SEXE/version/2.0.0> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/i14y/DV_SEXE/version/2.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Vocabulary> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/i14y/DV_SEXE/version/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Sex"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/i14y/DV_SEXE/version/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Geschlecht"@de <https://lindas.admin.ch/sfa/dataMngt> .
