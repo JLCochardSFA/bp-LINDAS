@@ -34,13 +34,13 @@ WHERE {
         OPTIONAL {?cube schema:name ?cubeName0.}
         OPTIONAL {
             ?cube schema:version ?cubeVersion.
-             BIND (STRLANG(STR(?cubeVersion), "en") AS ?cubeVersionName0)
+             BIND (STRLANG(STR(?cubeVersion), "de") AS ?cubeVersionName0)
         }
-        BIND (COALESCE(?cubeVersionName0,?cubeName0,STRLANG("Not named","en")) AS ?cubeVersionName)
+        BIND (COALESCE(?cubeVersionName0,?cubeName0,STRLANG("Nicht benannt","de")) AS ?cubeVersionName)
         ?dataset schema:hasPart ?cube.
         OPTIONAL {?dataset schema:name ?datasetName0.}
-        BIND (COALESCE(?datasetName0,?cubeName0,STRLANG("Not named","en")) AS ?datasetName)
-        FILTER langMatches( lang(?datasetName), "EN")
-        FILTER langMatches( lang(?cubeVersionName), "EN")
+        BIND (COALESCE(?datasetName0,?cubeName0,STRLANG("Nicht benannt","de")) AS ?datasetName)
+        FILTER langMatches( lang(?datasetName), "DE")
+        FILTER langMatches( lang(?cubeVersionName), "DE")
     }
 }                  
