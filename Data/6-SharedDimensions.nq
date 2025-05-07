@@ -3,15 +3,15 @@
 <https://schema.ld.admin.ch/datamngt#containsDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foj/zefix> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/zefix> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/zefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/zefix> <http://www.w3.org/2000/01/rdf-schema#label> "Zefix - Central Business Name Index (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/zefix> <http://www.w3.org/2000/01/rdf-schema#label> "Zefix - Zentraler Firmenindex (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/zefix> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/rvov> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/department> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/department> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Departments and the Federal Chancellery (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/department> <http://www.w3.org/2000/01/rdf-schema#label> "Eidgen\u00F6ssische Departemente und die Bundeskanzlei (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/department> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/rvov> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/office> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/office> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Offices (72)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/office> <http://www.w3.org/2000/01/rdf-schema#label> "Bundes\u00E4mter (72)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/office> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://energy.ld.admin.ch/sfoe/bfe_ogd56_energieperspektiven2050/1/> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/office> <https://schema.ld.admin.ch/datamngt#Cardinality> "72"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/office> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://energy.ld.admin.ch/sfoe/bfe_ogd56_energieperspektiven2050/2/> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -87,7 +87,7 @@
 <https://ld.admin.ch/dimension/office> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Moderhinke_Aktuelle_Situation/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/canton> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/canton> <http://www.w3.org/2000/01/rdf-schema#label> "Cantons (54)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/canton> <http://www.w3.org/2000/01/rdf-schema#label> "Kantone (54)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/canton> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://energy.ld.admin.ch/elcom/electricityprice-canton> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/canton> <https://schema.ld.admin.ch/datamngt#Cardinality> "54"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/canton> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/foph/covid19/vaccine-doses> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -145,18 +145,18 @@
 <https://ld.admin.ch/dimension/canton> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Moderhinke_Aktuelle_Situation/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/municipality> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Municipalities (3)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Gemeinden (3)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/municipality> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://energy.ld.admin.ch/elcom/electricityprice> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/municipality> <https://schema.ld.admin.ch/datamngt#Cardinality> "3"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/municipality> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://agriculture.ld.admin.ch/fsvo/animal-disease> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/municipality> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd006601/4> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/el01> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/el01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/el01> <http://www.w3.org/2000/01/rdf-schema#label> "Heavy Metal (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/el01> <http://www.w3.org/2000/01/rdf-schema#label> "Schwermetall (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/el01> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <http://www.w3.org/2000/01/rdf-schema#label> "Protection forest regions NFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <http://www.w3.org/2000/01/rdf-schema#label> "Schutzwaldregionen LFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <https://schema.ld.admin.ch/datamngt#Cardinality> "33"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -193,7 +193,7 @@
 <https://ld.admin.ch/dimension/bgdi/biota/protectionforestregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-98/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/biota/economicregions> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/economicregions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/biota/economicregions> <http://www.w3.org/2000/01/rdf-schema#label> "Economic regions NFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/biota/economicregions> <http://www.w3.org/2000/01/rdf-schema#label> "Wirtschaftsregionen LFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/economicregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/economicregions> <https://schema.ld.admin.ch/datamngt#Cardinality> "33"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/economicregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -267,7 +267,7 @@
 <https://ld.admin.ch/dimension/bgdi/biota/productionregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-98/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/country> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/country> <http://www.w3.org/2000/01/rdf-schema#label> "Countries (49)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/country> <http://www.w3.org/2000/01/rdf-schema#label> "L\u00E4nder (49)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/country> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/foph/covid19/vaccine-doses> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/country> <https://schema.ld.admin.ch/datamngt#Cardinality> "49"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/country> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/foph/covid19/affected> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -320,30 +320,24 @@
 <https://ld.admin.ch/dimension/country> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Moderhinke_Aktuelle_Situation/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/energy/hydropowerplants> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/energy/hydropowerplants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/energy/hydropowerplants> <http://www.w3.org/2000/01/rdf-schema#label> "Hydropower plants (WASTA) (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/energy/hydropowerplants> <http://www.w3.org/2000/01/rdf-schema#label> "Wasserkraftanlagen (WASTA) (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/energy/hydropowerplants> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/inlandwaters/bathingwater> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/inlandwaters/bathingwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/inlandwaters/bathingwater> <http://www.w3.org/2000/01/rdf-schema#label> "Bathing water - Measurement stations (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/inlandwaters/bathingwater> <http://www.w3.org/2000/01/rdf-schema#label> "Badegew\u00E4sser - Messstationen (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/inlandwaters/bathingwater> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd01041prod/4> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/inlandwaters/bathingwater> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/cofog> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/cofog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/cofog> <http://www.w3.org/2000/01/rdf-schema#label> "Classification of the functions of government (COFOG) (2)" <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/cofog> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/EFV_cofog_international/2> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/cofog> <https://schema.ld.admin.ch/datamngt#Cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/cofog> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/BFS_cofog_national/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/elcom/electricityprice> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/electricity-provider> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/electricity-provider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/electricity-provider> <http://www.w3.org/2000/01/rdf-schema#label> "Network operator (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/electricity-provider> <http://www.w3.org/2000/01/rdf-schema#label> "Netzbetreiber (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/electricity-provider> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/ClassificationUnit> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/ClassificationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/ClassificationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Classification NFI (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/ClassificationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Klassierung LFI (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/ClassificationUnit> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/Grid> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Grid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/Grid> <http://www.w3.org/2000/01/rdf-schema#label> "Grid NFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/Grid> <http://www.w3.org/2000/01/rdf-schema#label> "Netz LFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Grid> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Grid> <https://schema.ld.admin.ch/datamngt#Cardinality> "33"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Grid> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -380,7 +374,7 @@
 <https://environment.ld.admin.ch/foen/nfi/Grid> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-98/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/Inventory> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Inventory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/Inventory> <http://www.w3.org/2000/01/rdf-schema#label> "Inventory NFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/Inventory> <http://www.w3.org/2000/01/rdf-schema#label> "Inventur LFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Inventory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Inventory> <https://schema.ld.admin.ch/datamngt#Cardinality> "33"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/Inventory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -417,7 +411,7 @@
 <https://environment.ld.admin.ch/foen/nfi/Inventory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-98/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation area NFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Bezugsfl\u00E4che LFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <https://schema.ld.admin.ch/datamngt#Cardinality> "33"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -454,42 +448,42 @@
 <https://environment.ld.admin.ch/foen/nfi/UnitOfEvaluation> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-98/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/UnitOfReference> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/UnitOfReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/UnitOfReference> <http://www.w3.org/2000/01/rdf-schema#label> "Region NFI (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/UnitOfReference> <http://www.w3.org/2000/01/rdf-schema#label> "Region LFI (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/UnitOfReference> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/nfi> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/foen/nfi/EvaluationType> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/EvaluationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/foen/nfi/EvaluationType> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation type NFI (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/foen/nfi/EvaluationType> <http://www.w3.org/2000/01/rdf-schema#label> "Auswertungsart LFI (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/foen/nfi/EvaluationType> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/popularvotes> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/popular-vote/types> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/popular-vote/types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/popular-vote/types> <http://www.w3.org/2000/01/rdf-schema#label> "Submission type (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/popular-vote/types> <http://www.w3.org/2000/01/rdf-schema#label> "Vorlagentyp (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/popular-vote/types> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/popularvotes> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/popular-vote/vote-procedures> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/popular-vote/vote-procedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/popular-vote/vote-procedures> <http://www.w3.org/2000/01/rdf-schema#label> "Voting procedure (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/popular-vote/vote-procedures> <http://www.w3.org/2000/01/rdf-schema#label> "Abstimmungsverfahren (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/popular-vote/vote-procedures> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/themes> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/vocabulary/ghg_emission_sectors_co2_ordinance> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/ghg_emission_sectors_co2_ordinance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/vocabulary/ghg_emission_sectors_co2_ordinance> <http://www.w3.org/2000/01/rdf-schema#label> "Greenhouse gas emission sectors according to the CO2 Ordinance (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/vocabulary/ghg_emission_sectors_co2_ordinance> <http://www.w3.org/2000/01/rdf-schema#label> "Treibhausgas-Emissionssektoren nach der CO2-Verordnung (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/ghg_emission_sectors_co2_ordinance> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd000502/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/ghg_emission_sectors_co2_ordinance> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/popularvotes> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/vocabulary/popular-votes> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/popular-votes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/vocabulary/popular-votes> <http://www.w3.org/2000/01/rdf-schema#label> "Popular initiatives (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/vocabulary/popular-votes> <http://www.w3.org/2000/01/rdf-schema#label> "Volksinitiativen (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/popular-votes> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/pol01air> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/pol01air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/pol01air> <http://www.w3.org/2000/01/rdf-schema#label> "Pollutants (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/pol01air> <http://www.w3.org/2000/01/rdf-schema#label> "Schadstoffe (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/pol01air> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd000502/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/pol01air> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/testdimension> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/testdimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/testdimension> <http://www.w3.org/2000/01/rdf-schema#label> "Pollutants groups (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/testdimension> <http://www.w3.org/2000/01/rdf-schema#label> "Schadstoffgruppen (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/testdimension> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd000502/7> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/testdimension> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/meta> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/time/year> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/time/year> <http://www.w3.org/2000/01/rdf-schema#label> "Year (29)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/time/year> <http://www.w3.org/2000/01/rdf-schema#label> "Jahr (29)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/year> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://agriculture.ld.admin.ch/foag/cube/MilkDairyProducts/Production_Index_Year> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/year> <https://schema.ld.admin.ch/datamngt#Cardinality> "29"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/year> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://agriculture.ld.admin.ch/foag/cube/MilkDairyProducts/Consumption_Price_Year> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -526,11 +520,11 @@
 <https://ld.admin.ch/time/semester> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/meta> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/time/quarter> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/quarter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/time/quarter> <http://www.w3.org/2000/01/rdf-schema#label> "Quarter (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/time/quarter> <http://www.w3.org/2000/01/rdf-schema#label> "Quartal (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/quarter> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/meta> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/time/month> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/month> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/time/month> <http://www.w3.org/2000/01/rdf-schema#label> "Month (13)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/time/month> <http://www.w3.org/2000/01/rdf-schema#label> "Monat (13)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/month> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://agriculture.ld.admin.ch/foag/cube/MilkDairyProducts/Consumption_Price_Month> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/month> <https://schema.ld.admin.ch/datamngt#Cardinality> "13"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/month> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://agriculture.ld.admin.ch/foag/cube/MilkDairyProducts/Production_Index_Month> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -547,26 +541,26 @@
 <https://ld.admin.ch/time/month> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://agriculture.ld.admin.ch/foag/cube/Oilseeds/Consumption_Price_Month> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/meta> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/time/week> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/week> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/time/week> <http://www.w3.org/2000/01/rdf-schema#label> "Week (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/time/week> <http://www.w3.org/2000/01/rdf-schema#label> "Woche (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/time/week> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/planningcadastre_planning/agglomerationtraffic> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/planningcadastre_planning/agglomerationtraffic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/planningcadastre_planning/agglomerationtraffic> <http://www.w3.org/2000/01/rdf-schema#label> "Agglomerations BeSA (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/planningcadastre_planning/agglomerationtraffic> <http://www.w3.org/2000/01/rdf-schema#label> "Agglomerationen BeSA (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/planningcadastre_planning/agglomerationtraffic> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://energy.ld.admin.ch/sfoe/bfe_ogd100_kennzahlensharedmobility/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/planningcadastre_planning/agglomerationtraffic> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/biota/forestfirewarningregions> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/forestfirewarningregions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/biota/forestfirewarningregions> <http://www.w3.org/2000/01/rdf-schema#label> "Forest fire warning regions (2)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/biota/forestfirewarningregions> <http://www.w3.org/2000/01/rdf-schema#label> "Waldbrandwarnregionen (2)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/forestfirewarningregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/gefahren-waldbrand-warnung/1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/forestfirewarningregions> <https://schema.ld.admin.ch/datamngt#Cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/forestfirewarningregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/gefahren-waldbrand-praeventionsmassnahmen-kantone/1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/curia> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/vocabulary/party> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/party> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/vocabulary/party> <http://www.w3.org/2000/01/rdf-schema#label> "Political parties (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/vocabulary/party> <http://www.w3.org/2000/01/rdf-schema#label> "Parteien (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/party> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <http://www.w3.org/2000/01/rdf-schema#label> "Cantons NFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <http://www.w3.org/2000/01/rdf-schema#label> "Kantone LFI (33)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <https://schema.ld.admin.ch/datamngt#Cardinality> "33"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-1029/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -603,70 +597,70 @@
 <https://ld.admin.ch/dimension/bgdi/biota/cantonregions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-98/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/gest_energietraeger> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/gest_energietraeger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/gest_energietraeger> <http://www.w3.org/2000/01/rdf-schema#label> "Energy carriers according to GEST (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/gest_energietraeger> <http://www.w3.org/2000/01/rdf-schema#label> "Energietr\u00E4ger gem\u00E4ss GEST (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/gest_energietraeger> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://energy.ld.admin.ch/sfoe/bfe_ogd115_gest_bilanz/6> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/gest_energietraeger> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/utilitiescommunication/radiocoverageareas> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/utilitiescommunication/radiocoverageareas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/utilitiescommunication/radiocoverageareas> <http://www.w3.org/2000/01/rdf-schema#label> "Local/regional radio coverage areas (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/utilitiescommunication/radiocoverageareas> <http://www.w3.org/2000/01/rdf-schema#label> "Lokale/regionale Versorgungsgebiete Radio (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/utilitiescommunication/radiocoverageareas> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/utilitiescommunication/tvcoverageareas> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/utilitiescommunication/tvcoverageareas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/utilitiescommunication/tvcoverageareas> <http://www.w3.org/2000/01/rdf-schema#label> "Local/regional TV coverage areas (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/utilitiescommunication/tvcoverageareas> <http://www.w3.org/2000/01/rdf-schema#label> "Lokale/regionale Versorgungsgebiete TV (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/utilitiescommunication/tvcoverageareas> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/curia> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/vocabulary/parliamentary-committee> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-committee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/vocabulary/parliamentary-committee> <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary committee (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/vocabulary/parliamentary-committee> <http://www.w3.org/2000/01/rdf-schema#label> "Parlamentarische Kommission (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-committee> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/curia> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/vocabulary/parliamentary-group> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/vocabulary/parliamentary-group> <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary group (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/vocabulary/parliamentary-group> <http://www.w3.org/2000/01/rdf-schema#label> "Fraktion (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-group> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/curia> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/vocabulary/parliamentary-committee/role/type> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-committee/role/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/vocabulary/parliamentary-committee/role/type> <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary committee role type (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/vocabulary/parliamentary-committee/role/type> <http://www.w3.org/2000/01/rdf-schema#label> "Parlamentarischer Kommissions Typ (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-committee/role/type> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/curia> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/vocabulary/parliamentary-committee/type> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-committee/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/vocabulary/parliamentary-committee/type> <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary committee Type (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/vocabulary/parliamentary-committee/type> <http://www.w3.org/2000/01/rdf-schema#label> "Parlamentarischer Kommissions Typ (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/parliamentary-committee/type> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/fch/curia> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://politics.ld.admin.ch/vocabulary/session> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/vocabulary/session> <http://www.w3.org/2000/01/rdf-schema#label> "Sessions (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/vocabulary/session> <http://www.w3.org/2000/01/rdf-schema#label> "Sessionen (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/vocabulary/session> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/ownership> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/ownership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/ownership> <http://www.w3.org/2000/01/rdf-schema#label> "Ownership (2)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/ownership> <http://www.w3.org/2000/01/rdf-schema#label> "Eigentum (2)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/ownership> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/ownership> <https://schema.ld.admin.ch/datamngt#Cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/ownership> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-94/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/conifersAndBroadleaves> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/conifersAndBroadleaves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/conifersAndBroadleaves> <http://www.w3.org/2000/01/rdf-schema#label> "Conifers and broadleaves (2)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/conifersAndBroadleaves> <http://www.w3.org/2000/01/rdf-schema#label> "Nadel- und Laubholz (2)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/conifersAndBroadleaves> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_T-changes/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/conifersAndBroadleaves> <https://schema.ld.admin.ch/datamngt#Cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/conifersAndBroadleaves> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/nfi/nfi_C-96/cube/2024-1> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/farming/milkmarketregions> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/farming/milkmarketregions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/farming/milkmarketregions> <http://www.w3.org/2000/01/rdf-schema#label> "Milk and dairy market observation regions (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/farming/milkmarketregions> <http://www.w3.org/2000/01/rdf-schema#label> "Regionen der Marktbeobachtung Milch und Milchprodukte (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/farming/milkmarketregions> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/transportation/mountainlandingsites> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/transportation/mountainlandingsites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/transportation/mountainlandingsites> <http://www.w3.org/2000/01/rdf-schema#label> "Mountain landing sites: specially designated landing sites situated above 1100 m altitude (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/transportation/mountainlandingsites> <http://www.w3.org/2000/01/rdf-schema#label> "Gebirgslandepl\u00E4tze: speziell bezeichnete Landestellen \u00FCber 1100 m \u00FCber Meer (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/transportation/mountainlandingsites> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://transport.ld.admin.ch/foca/FOCA_Air_traffic_movements/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/transportation/mountainlandingsites> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/transportation/aerodromes> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/transportation/aerodromes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/transportation/aerodromes> <http://www.w3.org/2000/01/rdf-schema#label> "Civil and military aerodromes (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/transportation/aerodromes> <http://www.w3.org/2000/01/rdf-schema#label> "Zivile und milit\u00E4rische Flugpl\u00E4tze (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/transportation/aerodromes> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://transport.ld.admin.ch/foca/FOCA_Air_traffic_movements/3> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/transportation/aerodromes> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/climatologymeteorologyatmosphere/airqualitymonitoringstation> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/climatologymeteorologyatmosphere/airqualitymonitoringstation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/climatologymeteorologyatmosphere/airqualitymonitoringstation> <http://www.w3.org/2000/01/rdf-schema#label> "National Air Pollution Monitoring Network NABEL: stations (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/climatologymeteorologyatmosphere/airqualitymonitoringstation> <http://www.w3.org/2000/01/rdf-schema#label> "Nationales Beobachtungsnetz f\u00FCr Luftfremdstoffe NABEL: Stationen (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/climatologymeteorologyatmosphere/airqualitymonitoringstation> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/licenced_regional_tv> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/licenced_regional_tv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/licenced_regional_tv> <http://www.w3.org/2000/01/rdf-schema#label> "Licensed regional television (4)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/licenced_regional_tv> <http://www.w3.org/2000/01/rdf-schema#label> "Konzessionierte Regionalfernsehen (4)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/licenced_regional_tv> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://communication.ld.admin.ch/ofcom/licensed_tv_programme_structure/6> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/licenced_regional_tv> <https://schema.ld.admin.ch/datamngt#Cardinality> "4"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/licenced_regional_tv> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://communication.ld.admin.ch/ofcom/licensed_tv_topic_structure/4> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -674,26 +668,26 @@
 <https://ld.admin.ch/cube/dimension/licenced_regional_tv> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://communication.ld.admin.ch/ofcom/licensed_tv_reach/4> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/themes> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/vocabulary/chemical-elements-bafu> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/chemical-elements-bafu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/vocabulary/chemical-elements-bafu> <http://www.w3.org/2000/01/rdf-schema#label> "chemical element (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/vocabulary/chemical-elements-bafu> <http://www.w3.org/2000/01/rdf-schema#label> "chemisches Element (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/chemical-elements-bafu> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd006601/4> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/chemical-elements-bafu> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/territorial> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/dimension/bgdi/environment/biogeographicalregions> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/environment/biogeographicalregions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/dimension/bgdi/environment/biogeographicalregions> <http://www.w3.org/2000/01/rdf-schema#label> "Biogeographical regions of Switzerland (CH) (0)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/dimension/bgdi/environment/biogeographicalregions> <http://www.w3.org/2000/01/rdf-schema#label> "Biogeographische Regionen der Schweiz (CH) (0)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/dimension/bgdi/environment/biogeographicalregions> <https://schema.ld.admin.ch/datamngt#Cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/themes> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/vocabulary/iucn_conservation_categories> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/iucn_conservation_categories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/vocabulary/iucn_conservation_categories> <http://www.w3.org/2000/01/rdf-schema#label> "IUCN conservation categories (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/vocabulary/iucn_conservation_categories> <http://www.w3.org/2000/01/rdf-schema#label> "IUCN-Bedrohungskategorien (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/iucn_conservation_categories> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd003001/8> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/iucn_conservation_categories> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/foen/themes> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://environment.ld.admin.ch/vocabulary/foen_species_classification> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/foen_species_classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://environment.ld.admin.ch/vocabulary/foen_species_classification> <http://www.w3.org/2000/01/rdf-schema#label> "Species classification (FOEN) (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://environment.ld.admin.ch/vocabulary/foen_species_classification> <http://www.w3.org/2000/01/rdf-schema#label> "Artenklassifizierung (BAFU) (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/foen_species_classification> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://environment.ld.admin.ch/foen/ubd003001/8> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://environment.ld.admin.ch/vocabulary/foen_species_classification> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/tv_species> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/tv_species> <http://www.w3.org/2000/01/rdf-schema#label> "Animal categories used in testing (4)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/tv_species> <http://www.w3.org/2000/01/rdf-schema#label> "in Tierversuchen verwendete Tierkategorien (4)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_species> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_Origin/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_species> <https://schema.ld.admin.ch/datamngt#Cardinality> "4"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_species> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_use/2> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -701,7 +695,7 @@
 <https://ld.admin.ch/cube/dimension/tv_species> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/tv_experimentCategory> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_experimentCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/tv_experimentCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Categories of animal experiments (4)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/tv_experimentCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Kategorien von Experimenten in Tierversuchen (4)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_experimentCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_Origin/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_experimentCategory> <https://schema.ld.admin.ch/datamngt#Cardinality> "4"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_experimentCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_use/2> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -709,7 +703,7 @@
 <https://ld.admin.ch/cube/dimension/tv_experimentCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Disease categories studied in animal experiments (4)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Kategorien von Krankheiten, die in Tierversuchen untersucht wurden (4)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_Origin/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <https://schema.ld.admin.ch/datamngt#Cardinality> "4"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_use/2> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -717,7 +711,7 @@
 <https://ld.admin.ch/cube/dimension/tv_diseasesCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/tv_institutesCategory> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_institutesCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/tv_institutesCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Type of research institute (4)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/tv_institutesCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Art des Forschungsinstituts (4)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_institutesCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_Origin/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_institutesCategory> <https://schema.ld.admin.ch/datamngt#Cardinality> "4"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_institutesCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_use/2> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -725,7 +719,7 @@
 <https://ld.admin.ch/cube/dimension/tv_institutesCategory> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <http://www.w3.org/2000/01/rdf-schema#label> "Legal restrictions applied to an experiment (4)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <http://www.w3.org/2000/01/rdf-schema#label> "Rechtliche Einschr\u00E4nkungen f\u00FCr ein Experiment (4)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_Origin/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <https://schema.ld.admin.ch/datamngt#Cardinality> "4"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_use/2> <https://lindas.admin.ch/sfa/dataMngt> .
@@ -733,32 +727,35 @@
 <https://ld.admin.ch/cube/dimension/tv_LegalRestritctions> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/YesNo> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/YesNo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/YesNo> <http://www.w3.org/2000/01/rdf-schema#label> "Yes / No (5)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/YesNo> <http://www.w3.org/2000/01/rdf-schema#label> "Ja / Nein (5)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/YesNo> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_Origin/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/YesNo> <https://schema.ld.admin.ch/datamngt#Cardinality> "5"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/YesNo> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_use/2> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/YesNo> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/meat_Inspection_Stats/11> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/YesNo> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/9> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/YesNo> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/13> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/speciesFSVO> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/speciesFSVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/speciesFSVO> <http://www.w3.org/2000/01/rdf-schema#label> "Species FSVO (2)" <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/speciesFSVO> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/meat_Inspection_Stats/11> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/speciesFSVO> <https://schema.ld.admin.ch/datamngt#Cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/speciesFSVO> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/animalHealthStats/15> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/tv_DegreeOfSeverity> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_DegreeOfSeverity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/tv_DegreeOfSeverity> <http://www.w3.org/2000/01/rdf-schema#label> "Animal testing severity degree (2)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/tv_DegreeOfSeverity> <http://www.w3.org/2000/01/rdf-schema#label> "Schweregrad von Tierversuchen (2)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_DegreeOfSeverity> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/9> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_DegreeOfSeverity> <https://schema.ld.admin.ch/datamngt#Cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/tv_DegreeOfSeverity> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/TV_DegreeOfSeverity/13> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/diseasesCategories> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/diseasesCategories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/diseasesCategories> <http://www.w3.org/2000/01/rdf-schema#label> "Epizootics Categories FSVO (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/diseasesCategories> <http://www.w3.org/2000/01/rdf-schema#label> "Tierseuchenkategorien BLV (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/diseasesCategories> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/animalHealthStats/15> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/diseasesCategories> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/epizooticsFSVO> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/epizooticsFSVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://ld.admin.ch/cube/dimension/epizooticsFSVO> <http://www.w3.org/2000/01/rdf-schema#label> "Epizootics FSVO (1)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/epizooticsFSVO> <http://www.w3.org/2000/01/rdf-schema#label> "Tierseuchen BLV (1)" <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/epizooticsFSVO> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/animalHealthStats/15> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://ld.admin.ch/cube/dimension/epizooticsFSVO> <https://schema.ld.admin.ch/datamngt#Cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lindas.admin.ch/cube/dimension> <https://schema.ld.admin.ch/datamngt#containsDataset> <https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#SharedDimension> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <http://www.w3.org/2000/01/rdf-schema#label> "FSVO Lebensmittelkontrolle Kategorien (5)" <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Lebensmittelkontrolle_Produkte_Tabelle/1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <https://schema.ld.admin.ch/datamngt#Cardinality> "5"^^<http://www.w3.org/2001/XMLSchema#integer> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Lebensmittelkontrolle_Produkte_Parameter_Beanstandungsquote/1> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Lebensmittelkontrolle_Produkte_Uebersicht/2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Lebensmittelkontrolle_Produkte_Matrix_Beanstandungsquote/2> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://ld.admin.ch/cube/dimension/FSVO_Lebensmittelkontrolle_Kategorien> <https://schema.ld.admin.ch/datamngt#isUsedIn> <https://health.ld.admin.ch/fsvo/Lebensmittelkontrolle_Produkte_Produktionsmethode_Beanstandungsquote/2> <https://lindas.admin.ch/sfa/dataMngt> .
