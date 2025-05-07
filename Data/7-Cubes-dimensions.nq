@@ -1174,7 +1174,7 @@
 <https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Consumption_Price_Month> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Consumption_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "128"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Consumption_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
-<https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Production_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "132"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Production_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "239"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Production_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Production_Quantity_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "286"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/BreadCerealsFlourBakedGoods/Production_Quantity_Year> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
@@ -1188,7 +1188,7 @@
 <https://agriculture.ld.admin.ch/foag/cube/Feed/WholesaleProcessing_Price_Month> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/Feed/Production_Quantity_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "207"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/Feed/Production_Quantity_Year> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
-<https://agriculture.ld.admin.ch/foag/cube/Feed/Production_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "176"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://agriculture.ld.admin.ch/foag/cube/Feed/Production_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "263"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/Feed/Production_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/Oilseeds/Consumption_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "33"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://agriculture.ld.admin.ch/foag/cube/Oilseeds/Consumption_Price_Year> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "22"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
@@ -1426,3 +1426,9 @@
 <https://health.ld.admin.ch/fsvo/bvd_entwicklung/18> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "6"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://health.ld.admin.ch/fsvo/Moderhinke_Aktuelle_Situation/8> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "140"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
 <https://health.ld.admin.ch/fsvo/Moderhinke_Aktuelle_Situation/8> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "6"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://health.ld.admin.ch/fsvo/BT/46> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "69"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://health.ld.admin.ch/fsvo/BT/46> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "6"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://health.ld.admin.ch/fsvo/BT_table/37> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "6"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://health.ld.admin.ch/fsvo/BT_table/37> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "6"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://health.ld.admin.ch/fsvo/BT_entwicklung/35> <https://schema.ld.admin.ch/datamngt/hasNbObservations> "70"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
+<https://health.ld.admin.ch/fsvo/BT_entwicklung/35> <https://schema.ld.admin.ch/datamngt/hasNbDimensions> "5"^^<http://www.w3.org/2001/XMLSchema#integer> <https://ld.admin.ch/DataMngt> .
