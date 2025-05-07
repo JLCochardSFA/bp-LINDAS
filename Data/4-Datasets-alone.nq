@@ -2,14 +2,18 @@
 <https://schema.ld.admin.ch/datamngt#containsDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.ld.admin.ch/datamngt#NamedGraph> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://schema.ld.admin.ch/datamngt#containsDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/.well-known/dataset/opendataswiss-meta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/.well-known/dataset/opendataswiss-meta> <http://www.w3.org/2000/01/rdf-schema#label> "opendata.swiss Metadata"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/.well-known/dataset/opendataswiss-meta> <http://www.w3.org/2000/01/rdf-schema#label> "opendata.swiss Metadaten"@de <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lod.opentransportdata.swiss/.well-known/dataset/didok> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lod.opentransportdata.swiss/.well-known/dataset/didok> <http://www.w3.org/2000/01/rdf-schema#label> "Dienststellen (DiDok)"@de <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lod.opentransportdata.swiss/.well-known/dataset/nova> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
+<https://lod.opentransportdata.swiss/.well-known/dataset/nova> <http://www.w3.org/2000/01/rdf-schema#label> "NOVA"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/.well-known/dataset/foj-zefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/.well-known/dataset/foj-zefix> <http://www.w3.org/2000/01/rdf-schema#label> "Zefix - Central Business Name Index"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/.well-known/dataset/foj-zefix> <http://www.w3.org/2000/01/rdf-schema#label> "Zefix - Zentraler Firmenindex"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/.well-known/void/dataset/curia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/.well-known/void/dataset/curia> <http://www.w3.org/2000/01/rdf-schema#label> "The Swiss political system"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/.well-known/void/dataset/curia> <http://www.w3.org/2000/01/rdf-schema#label> "Das politisches System Schweiz"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://culture.ld.admin.ch/.well-known/dataset/ais> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://culture.ld.admin.ch/.well-known/dataset/ais> <http://www.w3.org/2000/01/rdf-schema#label> "Archive database of the Swiss Federal Archives"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://culture.ld.admin.ch/.well-known/dataset/ais> <http://www.w3.org/2000/01/rdf-schema#label> "Archivdatenbank des Schweizerischen Bundesarchiv"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://politics.ld.admin.ch/.well-known/void/dataset/popularvotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://politics.ld.admin.ch/.well-known/void/dataset/popularvotes> <http://www.w3.org/2000/01/rdf-schema#label> "Federal popular votes"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://politics.ld.admin.ch/.well-known/void/dataset/popularvotes> <http://www.w3.org/2000/01/rdf-schema#label> "Eidgen\u00F6ssische Volksabstimmungen"@de <https://lindas.admin.ch/sfa/dataMngt> .
 <https://register.ld.admin.ch/.well-known/dataset/termdat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.ld.admin.ch/datamngt#Dataset> <https://lindas.admin.ch/sfa/dataMngt> .
-<https://register.ld.admin.ch/.well-known/dataset/termdat> <http://www.w3.org/2000/01/rdf-schema#label> "TERMDAT - The Federal Administration\u2019s terminology database"@en <https://lindas.admin.ch/sfa/dataMngt> .
+<https://register.ld.admin.ch/.well-known/dataset/termdat> <http://www.w3.org/2000/01/rdf-schema#label> "TERMDAT - die Terminologie-Datenbank der Bundesverwaltung"@de <https://lindas.admin.ch/sfa/dataMngt> .
