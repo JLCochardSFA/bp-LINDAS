@@ -30,6 +30,6 @@ WHERE {
       	?termset a schema:DefinedTermSet;
                   schema:name ?termsetName.
         FILTER NOT EXISTS { ?termset a cube-meta:SharedDimension}
-        FILTER langMatches( lang(?termsetName), "EN")    
+        FILTER langMatches( lang(?termsetName), "DE")    
     }
 }                  
