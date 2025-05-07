@@ -29,8 +29,8 @@ WHERE {
     GRAPH ?g {
             ?cube a cube:Cube.
             OPTIONAL {?cube schema:name ?cubeName0}
-            BIND (COALESCE(?cubeName0,STRLANG("Not named","en")) AS ?cubeName)
-            FILTER langMatches( lang(?cubeName), "EN")
+            BIND (COALESCE(?cubeName0,STRLANG("Nicht benannt","de")) AS ?cubeName)
+            FILTER langMatches( lang(?cubeName), "DE")
             FILTER NOT EXISTS { ?dataset schema:hasPart ?cube}
         }
 }                  
