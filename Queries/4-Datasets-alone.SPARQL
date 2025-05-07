@@ -27,5 +27,5 @@ WHERE {
  ?dataset a dcat:Dataset; schema:name ?datasetName.
  FILTER NOT EXISTS {?dataset a cube:Cube}
  FILTER NOT EXISTS {?dataset schema:hasPart ?p}
- FILTER langMatches( lang(?datasetName), "EN")   
+ FILTER langMatches( lang(?datasetName), "DE")   
 }
