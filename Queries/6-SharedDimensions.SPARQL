@@ -40,7 +40,7 @@ WHERE {
             ?termset a cube-meta:SharedDimension.
             ?termset schema:name ?termsetName0.
             OPTIONAL {?termset cube-meta:isUsedIn ?cube.}
-            FILTER langMatches (lang(?termsetName0), "EN")
+            FILTER langMatches (lang(?termsetName0), "DE")
             BIND(STR(?termsetName0) AS ?termsetName1)
         } GROUP BY ?termset ?termsetName1
     }
